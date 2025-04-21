@@ -1,0 +1,9 @@
+<h1> List Of Roman Emperors </h1>
+
+<ul>
+  <% @emperors.each do |emperor| %>
+    <li>
+     <%= link_to emperor.name, emperor_path(emperor) %> ( <%= emperor.reign_start&.year %> - <%= emperor.reign_end&.year %> )
+    </li>
+    <% end %>
+</ul>

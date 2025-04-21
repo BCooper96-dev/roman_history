@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  reign_start: 2025-04-21
+  reign_end: 2025-04-21
+  bio: MyText
+  fun_fact: MyText
+  image_url: MyString
+
+two:
+  name: MyString
+  reign_start: 2025-04-21
+  reign_end: 2025-04-21
+  bio: MyText
+  fun_fact: MyText
+  image_url: MyString

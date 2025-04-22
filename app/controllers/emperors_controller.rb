@@ -1,6 +1,6 @@
 class EmperorsController < ApplicationController
   def index
-    @emperors=Emperor.all
+    @emperors_by_category = Emperor.all.group_by(&:category)
   end
 
   def show

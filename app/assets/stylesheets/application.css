@@ -1,10 +1,59 @@
-/*
- * This is a manifest file that'll be compiled into application.css.
- *
- * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
- * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
- * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
- * depending on specificity.
- *
- * Consider organizing styles into separate files for maintainability.
- */
+@import 'emperors';
+body.emperors.index { 
+    background-image: url('roman_helmet_background.jpg');
+    background-size: cover; 
+    background-repeat: repeat;
+    font-family: sans-serif;
+  }
+
+  body.emperors.index h1 {
+    font-size: 2.5em; /* Adjust this value as needed. 'em' is a relative unit. */
+  }
+  
+  body.emperors.index h2 {
+    font-size: 1.8em; /* Adjust this value as needed. */
+  }
+  
+  body.emperors.index p {
+    font-size: 1.1em; /* Adjust this value as needed. */
+  }
+
+/* Default styles (for smaller screens, like mobile - categories will be stacked) */
+.category-group {
+    margin-bottom: 20px; /* Add some vertical spacing between categories */
+  }
+  
+  .category-group h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .category-group ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .category-group li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for desktop screens (min-width: a certain pixel value, e.g., 768px) */
+  @media (min-width: 768px) {
+    .categories-container {
+      display: flex; /* Enable Flexbox for the container */
+      flex-wrap: wrap; /* Allow categories to wrap to the next line if there's not enough horizontal space */
+      justify-content: flex-start; /* Align categories to the left */
+      /* You might want to use space-around or space-between depending on the desired spacing */
+    }
+  
+    .category-group {
+      width: calc(25% - 20px); /* Example: Make each category take up about a third of the width, with some margin */
+      margin-right: 20px;
+      margin-bottom: 30px; /* Increase vertical margin for better spacing */
+    }
+  
+    /* Remove right margin from the last item in each row if needed */
+    .categories-container .category-group:nth-child(3n) {
+      margin-right: 0;
+    }
+  }

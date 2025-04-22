@@ -1,9 +1,14 @@
-<h1> List Of Roman Emperors </h1>
+<h1>Roman Emperors by Category</h1>
 
-<ul>
-  <% @emperors.each do |emperor| %>
-    <li>
-     <%= link_to emperor.name, emperor_path(emperor) %> ( <%= emperor.reign_start&.year %> - <%= emperor.reign_end&.year %> )
-    </li>
-    <% end %>
-</ul>
+<div class="categories-container">
+  <% @emperors_by_category.each do |category, emperors| %>
+    <div class="category-group">
+      <h2><%= category %></h2>
+      <ul>
+        <% emperors.each do |emperor| %>
+          <li><%= link_to emperor.name, emperor_path(emperor) %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>

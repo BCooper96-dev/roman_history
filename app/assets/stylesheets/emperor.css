@@ -1,0 +1,72 @@
+/* app/assets/stylesheets/emperors.css */
+
+/* app/assets/stylesheets/emperors.css */
+
+body {
+    background-image: url('roman_helmet_background.jpg'); /* Replace with your actual image name */
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: darkred;
+    margin-left: 200px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .category-group {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: white; /* Add a white background */
+    padding: 15px; /* Add some padding around the content inside the box */
+    border-radius: 5px; /* Add rounded corners for a softer look (optional) */
+    opacity: 0.9; /* Slightly reduce opacity if you want some of the background to show through (optional) */
+  }
+  
+  
+  .category-group h2 {
+    font-size: 1.8em;
+    color: darkred;
+    margin-bottom: 10px; /* Add some spacing below the heading */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .category-group ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .category-group li {
+    margin-bottom: 5px;
+  }
+  
+  .category-group li a {
+    color: black;
+    text-decoration: none; /* Remove underlines from links if you prefer */
+    font-weight: bold;
+  }
+  
+  .category-group li a:hover {
+    text-decoration: underline; /* Add underline on hover for better interaction */
+  }
+  
+  body.emperors.index h1 {
+    font-size: 2.5em;
+    color: darkred; /* Very dark gray for the main title */
+  }
+  
+  body.emperors.index p {
+    font-size: 1.1em;
+    color: #333;
+  }

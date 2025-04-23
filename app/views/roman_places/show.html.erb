@@ -1,0 +1,24 @@
+<div class="fact-file-box">
+  <h1><%= @roman_place.name %></h1>
+
+  <p><strong>Location:</strong> <%= @roman_place.location %></p>
+  <p><%= simple_format(@roman_place.description) %></p>
+  <p><strong>Fun Fact:</strong> <%= @roman_place.fun_fact %></p>
+  <p><strong>Approximate Build Date:</strong>
+    <% if @roman_place.build_date.present? %>
+      <% if @roman_place.build_date < 0 %>
+        <%= -@roman_place.build_date %> BC
+      <% else %>
+        <%= @roman_place.build_date %> AD
+      <% end %>
+    <% end %>
+  </p>
+  <% if @roman_place.image_url.present? %>
+    <%= image_tag @roman_place.image_url, alt: @roman_place.name %>
+  <% end %>
+
+  <div class="back-links">
+    <%= link_to 'Back to Roman Places', roman_places_path %> |
+    <%= link_to 'Back to Home', root_path %>
+  </div>
+</div>

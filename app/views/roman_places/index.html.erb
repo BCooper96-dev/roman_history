@@ -1,0 +1,45 @@
+<h1>Historical Roman Places by Category</h1>
+
+<div class="categories-container">
+  <% @roman_places_by_category.each do |category, places| %>
+    <div class="category-group">
+      <h2><%= category %></h2>
+      <ul>
+        <% places.each do |place| %>
+          <li><%= link_to place.name, roman_place_path(place) %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to 'Back to Home', root_path %>
+
+<style>
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .category-group {
+    flex: 1 0 200px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .category-group h2 {
+    margin-top: 0;
+    color: #8B4513; /* Example color */
+  }
+
+  .category-group ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .category-group li {
+    margin-bottom: 5px;
+  }
+</style>

@@ -1,0 +1,2 @@
+class RomanPlace < ApplicationRecord
+end

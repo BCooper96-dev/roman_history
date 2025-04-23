@@ -37,6 +37,14 @@ body.emperors.index {
     margin-bottom: 5px;
   }
   
+  h1 {
+    color: darkred /* Set your desired text color */
+    text-shadow:
+    -1px -1px 0 gold,
+    1px -1px 0 gold,
+    -1px 1px 0 gold,
+    1px 1px 0 gold;
+  }
   /* Styles for desktop screens (min-width: a certain pixel value, e.g., 768px) */
   @media (min-width: 768px) {
     .categories-container {

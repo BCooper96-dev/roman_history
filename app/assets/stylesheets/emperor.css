@@ -12,6 +12,11 @@ body {
   h1 {
     font-size: 2.5em;
     color: darkred;
+    text-shadow:
+    -2px -2px 0 gold,
+    2px -2px 0 gold,
+    -2px 2px 0 gold,
+    2px 2px 0 gold;
     margin-left: 200px;
     font-weight: bold;
     text-decoration: underline;
@@ -63,10 +68,107 @@ body {
   
   body.emperors.index h1 {
     font-size: 2.5em;
-    color: darkred; /* Very dark gray for the main title */
+    color: darkred;
+    text-shadow:
+    -2px -2px 0 gold,
+    2px -2px 0 gold,
+    -2px 2px 0 gold,
+    2px 2px 0 gold; /* Very dark gray for the main title */
   }
   
   body.emperors.index p {
     font-size: 1.1em;
     color: #333;
   }
+
+  /* app/assets/stylesheets/emperors.css */
+
+/* ... other styles ... */
+
+.emperor-details {
+  background-color: white; /* White background for the box */
+  padding: 20px; /* Add padding around the content */
+  margin: 20px auto; /* Add margin around the box and center it horizontally */
+  border-radius: 5px; /* Optional: Rounded corners */
+  opacity: 0.9; /* Optional: Slight transparency */
+  max-width: 800px; /* Optional: Limit the width of the box */
+}
+
+.emperor-details h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: 0;
+  color: darkred;
+  text-shadow:
+    -2px -2px 0 gold,
+    2px -2px 0 gold,
+    -2px 2px 0 gold,
+    2px 2px 0 gold;
+}
+
+.emperor-details p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* Style the back link if you want */
+.emperor-details a {
+  display: block; /* Make it a block element to take full width */
+  margin-top: 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+.emperor-details a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the white box around the fact file content */
+.fact-file-box {
+  background-color: white;
+  border: 1px solid #ccc; /* Optional: Add a subtle border */
+  padding: 20px;
+  margin-bottom: 20px; /* Add some space below the box */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* You might want to style the individual elements within the box as well */
+.fact-file-box h1 {
+  color: darkred; /* Example heading color */
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+.fact-file-box p {
+  line-height: 1.6; /* Improve readability of text */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.fact-file-box strong {
+  font-weight: bold;
+}
+
+.fact-file-box img {
+  max-width: 100%; /* Make images responsive within the box */
+  height: auto;
+  margin-bottom: 15px;
+  border: 1px solid #eee; /* Optional: Subtle border for images */
+}
+
+.fact-file-box .back-links {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+/* ... any other specific styling for the fact file page ... */

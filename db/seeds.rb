@@ -284,7 +284,7 @@ Emperor.create({
   bio: "Clodius Albinus was a Roman usurper who claimed the title of Emperor during the Year of the Five Emperors. He initially allied himself with Septimius Severus against Didius Julianus but later declared himself Emperor in opposition to Severus. He controlled Britain and Gaul but was eventually defeated and killed by Severus at the Battle of Lugdunum (modern Lyon). He was known for his intellectual interests and his alleged descent from noble Roman families.",
   fun_fact: "Clodius Albinus reportedly collected a large library and enjoyed philosophical discussions.",
   category: "Year of the Five Emperors",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Clodius_Albinus_as_Augustus.jpg/300px-Clodius_Albinus_as_Augustus.jpg"
+  image_url: "https://content3.cdnprado.net/imagenes/Documentos/imgsem/99/994c/994cfb91-4ceb-427a-8c10-50d07bcae713/e75a50ea-8c5a-4404-a079-3235ce04e715.jpg"
 })
 
 Emperor.create({
@@ -297,7 +297,7 @@ Emperor.create({
   bio: "Pescennius Niger was a Roman usurper who claimed the title of Emperor during the Year of the Five Emperors. He was the governor of Syria and was proclaimed Emperor by his troops after the assassination of Pertinax. He controlled the eastern provinces of the Roman Empire and clashed with Septimius Severus, who controlled the west. Niger was eventually defeated and executed by Severus's forces after a series of battles.",
   fun_fact: "Pescennius Niger was known for his strict discipline and military competence.",
   category: "Year of the Five Emperors",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pescennius_Niger_as_Augustus.jpg/300px-Pescennius_Niger_as_Augustus.jpg"
+  image_url: "https://imperiumromanum.pl/wp-content/uploads/2017/08/220px-B_werdeg28-1200x900-cropped.jpg"
 })
 
 
@@ -376,7 +376,7 @@ Emperor.create({
   bio: "Maximinus Thrax was a Roman Emperor who ruled from 235 to 238 AD. He was a soldier of humble origins who rose through the ranks of the army due to his immense size and strength. After the assassination of Severus Alexander, the army proclaimed him emperor. Maximinus spent much of his reign on military campaigns, particularly on the Rhine and Danube frontiers. He was not popular in Rome, as he never visited the city and was perceived as a barbarian. Opposition grew, leading to revolts and eventually his assassination by his own soldiers.",
   fun_fact: "Maximinus Thrax was said to have been incredibly tall and strong, with some accounts claiming he was over 8 feet tall (though this is likely an exaggeration).",
   category: "Crisis of the Third Century",
-  image_url: "https://cdn.britannica.com/71/36171-004-5CD2D081/Maximinus-plaster-bust-Rome-Capitoline-Museum.jpg"
+  image_url: "https://www.worldhistory.org/img/r/p/500x600/1398.jpg?v=1633014903"
 })
 
 Emperor.create({
@@ -389,7 +389,7 @@ Emperor.create({
   bio: "Gordian I was a Roman Emperor who reigned for only about three weeks in 238 AD. He was an elderly and respected proconsul of Africa who was proclaimed emperor by local landowners revolting against Maximinus Thrax's harsh rule. Gordian I reluctantly accepted the title, and his son, Gordian II, was declared co-emperor. However, their rebellion was quickly put down by the governor of Numidia, a loyal supporter of Maximinus. Gordian II was killed in battle, and upon hearing this news, the elderly Gordian I died, either by suicide or natural causes.",
   fun_fact: "Gordian I was said to be around 80 years old when he became emperor!",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gordian_I_Museo_Capitolino_MC1820.jpg/300px-Gordian_I_Museo_Capitolino_MC1820.jpg"
+  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gordian_I_Musei_Capitolini_MC475.jpg/250px-Gordian_I_Musei_Capitolini_MC475.jpg"
 })
 
 Emperor.create({
@@ -402,7 +402,7 @@ Emperor.create({
   bio: "Gordian II was a Roman Emperor who reigned as co-emperor with his father, Gordian I, for only about three weeks in 238 AD. He was the son of the proconsul Gordian I, and together they were proclaimed emperors in Africa by local landowners revolting against Maximinus Thrax. Gordian II led a local militia against Capelianus, the governor of Numidia and a loyal supporter of Maximinus. Gordian II was defeated and killed in the resulting battle, leading to his father's death soon after.",
   fun_fact: "Gordian II's reign was so short that few coins or statues of him survive.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Gordian_II_Museo_Capitolino_MC1821.jpg/300px-Gordian_II_Museo_Capitolino_MC1821.jpg"
+  image_url: "https://cdn.britannica.com/43/132543-004-0CF3F419/Gordian-II-portrait-coin.jpg?w=300"
 })
 
 Emperor.create({
@@ -415,7 +415,7 @@ Emperor.create({
   bio: "Pupienus Maximus was a Roman Emperor who ruled as co-emperor with Balbinus for a very short period in 238 AD. He was an experienced senator and administrator who was appointed by the Senate to oppose Maximinus Thrax after the Gordians' deaths. Pupienus was known for his military experience and was tasked with leading the forces against Maximinus. However, tensions arose between him and Balbinus, and they were both assassinated by the Praetorian Guard.",
   fun_fact: "Pupienus had served as a governor of several provinces and had a strong military background.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pupienus_Museo_Capitolino_MC1822.jpg/300px-Pupienus_Museo_Capitolino_MC1822.jpg"
+  image_url: "https://cdn.britannica.com/30/171430-050-A697BD75/Pupienus-Maximus-marble-bust-Rome-Capitoline-Museums-238-ce.jpg?w=300"
 })
 
 Emperor.create({
@@ -428,7 +428,7 @@ Emperor.create({
   bio: "Balbinus was a Roman Emperor who ruled as co-emperor with Pupienus for a very short period in 238 AD. He was a respected senator known for his eloquence and his administrative skills. Appointed by the Senate alongside Pupienus to oppose Maximinus Thrax, Balbinus was older and perhaps less militarily inclined than his co-emperor. Disputes and a lack of trust between them led to their joint assassination by the Praetorian Guard.",
   fun_fact: "Balbinus was a noted orator and poet.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Balbinus_Museo_Capitolino_MC1823.jpg/300px-Balbinus_Museo_Capitolino_MC1823.jpg"
+  image_url: "https://www.mediastorehouse.com.au/p/782/portrait-balbino-held-villa-albani-rome-33115521.jpg.webp"
 })
 
 Emperor.create({
@@ -441,7 +441,7 @@ Emperor.create({
   bio: "Gordian III was a Roman Emperor who came to the throne as a teenager in 238 AD after the deaths of Pupienus and Balbinus. He was the grandson of Gordian I and was initially popular due to his youth and connection to the earlier Gordians. His early reign was guided by his advisors, particularly his father-in-law Timesitheus. He led campaigns against the Persians, but Timesitheus's death weakened his position, and Gordian III died under unclear circumstances, possibly assassinated by his successor, Philip.",
   fun_fact: "Gordian III was nicknamed 'the little Gordian' due to his young age when he became emperor.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gordian_III_Museo_Capitolino_MC1824.jpg/300px-Gordian_III_Museo_Capitolino_MC1824.jpg"
+  image_url: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdrQJabjz1e8aQxsAyO56TwV4F9uHWnMsPeSdC8oOSO_SrlKUdThfJgCmYV3CkAi5XNiG44nyMhc0qum8HD09DaQ"
 })
 
 Emperor.create({
@@ -454,7 +454,7 @@ Emperor.create({
   bio: "Philip the Arab was a Roman Emperor who ruled from 244 to 249 AD. He rose to prominence during Gordian III's Persian campaign and became emperor after Gordian's death. His reign is notable for the lavish celebrations of Rome's millennium (1000th anniversary) in 248 AD. However, his rule also faced challenges, including rebellions and Gothic invasions. He was eventually killed in battle against his successor, Decius.",
   fun_fact: "Philip the Arab is sometimes speculated to have been the first Christian Roman Emperor, though this is highly debated.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Philippus_Arabs_Museo_Capitolino_MC1826.jpg/300px-Philippus_Arabs_Museo_Capitolino_MC1826.jpg"
+  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Busto_di_filippo_l%27arabo%2C_244-249_dc%2C_da_castel_porziano%2C_01.jpg/800px-Busto_di_filippo_l%27arabo%2C_244-249_dc%2C_da_castel_porziano%2C_01.jpg"
 })
 
 Emperor.create({
@@ -467,7 +467,7 @@ Emperor.create({
   bio: "Decius was a Roman Emperor who ruled from 249 to 251 AD. He rose to power after leading a rebellion against Philip the Arab. Decius is known for his attempts to revive traditional Roman religion and his persecution of Christians. He also faced significant military threats, particularly from the Goths. He was the first Roman Emperor to be killed in battle against barbarians.",
   fun_fact: "Decius issued an edict requiring all citizens to perform public acts of worship to the Roman gods.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Decius_Museo_Capitolino_MC1828.jpg/300px-Decius_Museo_Capitolino_MC1828.jpg"
+  image_url: "https://www.dailyartmagazine.com/wp-content/uploads/2021/07/dec006.jpg"
 })
 
 Emperor.create({
@@ -480,7 +480,7 @@ Emperor.create({
   bio: "Hostilian was a Roman Emperor who ruled briefly in 251 AD as a co-emperor with Trebonianus Gallus. He was the son of the previous emperor Decius. After Decius's death in battle, Hostilian was recognized as emperor in Rome, while the army in the field proclaimed Gallus. A compromise was reached where they would rule jointly, but Hostilian died of the plague within a few months.",
   fun_fact: "Hostilian's short reign was largely overshadowed by the ongoing plague and the rise of Gallus.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Hostilian_Museo_Capitolino_MC1830.jpg/300px-Hostilian_Museo_Capitolino_MC1830.jpg"
+  image_url: "https://totallyhistory.com/wp-content/uploads/2022/03/Grande_Ludovisi_sarcophagus_with-showcasing-Hostilian-763x950-1.png"
 })
 
 Emperor.create({
@@ -493,7 +493,7 @@ Emperor.create({
   bio: "Gallus (full name Trebonianus Gallus) was a Roman Emperor who ruled from 251 to 253 AD. He was proclaimed emperor by the army after the death of Decius. His reign was marked by continued barbarian incursions and a devastating plague. He made peace with the Goths, which was seen as a sign of weakness. Gallus also faced a rebellion led by Aemilian and was eventually assassinated by his own soldiers.",
   fun_fact: "Gallus made a controversial peace treaty with the Goths, allowing them to keep their plunder and prisoners.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Trebonianus_Gallus_Museo_Capitolino_MC1831.jpg/300px-Trebonianus_Gallus_Museo_Capitolino_MC1831.jpg"
+  image_url: "https://cdn.britannica.com/62/118662-004-BFB6E8C9/portrait-Gallus-Caesar.jpg"
 })
 
 Emperor.create({
@@ -506,7 +506,7 @@ Emperor.create({
   bio: "Aemilian was a Roman Emperor who reigned for only a few months in 253 AD. He was a governor in the Balkans who led his troops to victory against the Goths. This success led his soldiers to proclaim him emperor in opposition to Gallus. He marched on Italy, but before he could confront Gallus, Gallus was assassinated by his own troops. However, Aemilian's own soldiers soon turned on him and assassinated him in turn when Valerian's forces approached.",
   fun_fact: "Aemilian's reign was one of the shortest in Roman history, lasting only around three months.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Aemilian_Museo_Capitolino_MC1832.jpg/300px-Aemilian_Museo_Capitolino_MC1832.jpg"
+  image_url: "https://cdn.britannica.com/91/125091-004-CC05E4FA/Aemilian-portrait-coin.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -519,7 +519,7 @@ Emperor.create({
   bio: "Valerian was a Roman Emperor who ruled from 253 to 260 AD. He came to power during the Crisis of the Third Century and initially ruled jointly with his son Gallienus. Valerian focused on the eastern part of the empire, facing threats from the Persians. In a disastrous turn of events, he was captured by the Sasanian Persian King Shapur I and spent the rest of his life as a prisoner, the only Roman Emperor to suffer such a fate.",
   fun_fact: "Valerian's capture by the Persians was a major humiliation for the Roman Empire.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Valerian_Museo_Capitolino_MC1833.jpg/300px-Valerian_Museo_Capitolino_MC1833.jpg"
+  image_url: "https://i.namu.wiki/i/Jhj6nJuTUfzjzM3wbUWkXvBd0fpVhTB-MLVIMs_rYZjLFAGWpz0RTV-oUdJGRCnSPu7ddR8NH4MWCXp7SurHW5ofD4cV76fyqvL6doB3FWZTCjrG4PbRvMTRvWj4oJ7FyeVUEMWDy9nYJxwNvTh2eZPqt0jYpXbHBBmwrfKx-MY.webp"
 })
 
 Emperor.create({
@@ -532,7 +532,7 @@ Emperor.create({
   bio: "Gallienus was a Roman Emperor who ruled jointly with his father Valerian and then as sole emperor from 260 to 268 AD. His reign was during one of the most chaotic periods of the Crisis of the Third Century, with the empire facing barbarian invasions, internal revolts, and the secession of large territories (the Gallic Empire and the Palmyrene Empire). Despite these challenges, Gallienus implemented important military reforms and fostered intellectual life.",
   fun_fact: "Gallienus officially recognized Christianity as a legal religion for a time, a significant step in its history.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Gallienus_Museo_Capitolino_MC1835.jpg/300px-Gallienus_Museo_Capitolino_MC1835.jpg"
+  image_url: "https://cdn.britannica.com/20/11620-004-90A02485/Gallienus-marble-bust-Naples-Museo-Archeologico-Nazionale.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -545,7 +545,7 @@ Emperor.create({
   bio: "Claudius II Gothicus was a Roman Emperor who ruled from 268 to 270 AD. He gained prominence for his military victories, particularly against the Goths, which earned him his nickname 'Gothicus.' His short reign was largely focused on military matters and dealing with the ongoing crises of the empire. He died of the plague.",
   fun_fact: "Claudius II Gothicus was so popular for his victory over the Goths that some later sources claimed he was an ancestor of Constantine the Great (though this is historically inaccurate).",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claudius_II_Gothicus_Museo_Capitolino_MC1837.jpg/300px-Claudius_II_Gothicus_Museo_Capitolino_MC1837.jpg"
+  image_url: "https://cdn.britannica.com/40/118640-004-B31EC21E/portrait-Claudius-II-Gothicus.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -558,7 +558,7 @@ Emperor.create({
   bio: "Quintillus was a Roman Emperor who reigned for a very short time in 270 AD. He was the brother of Claudius II Gothicus and was proclaimed emperor by the Senate after his brother's death. However, the army largely supported Aurelian, a successful general. To avoid civil war, Quintillus's reign ended quickly, either through suicide or assassination.",
   fun_fact: "Quintillus's reign lasted only a few months, and he was never widely recognized by the army.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Quintillus_Museo_Capitolino_MC1838.jpg/300px-Quintillus_Museo_Capitolino_MC1838.jpg"
+  image_url: "https://cdn.britannica.com/49/128649-004-ABBDCE5E/Quintillus-portrait-coin.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -571,7 +571,7 @@ Emperor.create({
   bio: "Aurelian was a Roman Emperor who ruled from 270 to 275 AD. He was a highly successful military leader who played a crucial role in reuniting the fractured Roman Empire during the Crisis of the Third Century. He defeated the Palmyrene Empire in the East and the Gallic Empire in the West. He also built the Aurelian Walls around Rome to protect it. His strong rule helped to stabilize the empire, though he was eventually assassinated.",
   fun_fact: "Aurelian was known as 'Restitutor Orbis' (Restorer of the World) for his efforts in reuniting the Roman Empire.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Aurelian_Museo_Capitolino_MC1839.jpg/300px-Aurelian_Museo_Capitolino_MC1839.jpg"
+  image_url: "https://cdn.britannica.com/17/132717-004-29F79CBF/portrait-Aurelian-coin-mint-Roman-275-AD.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -584,7 +584,7 @@ Emperor.create({
   bio: "Tacitus was a Roman Emperor who ruled for a short period in 275 and 276 AD. He was an elderly and respected senator who was chosen as emperor after Aurelian's assassination. He attempted to restore the authority of the Senate and undertook a military campaign in the East. His reign was brief and his death is attributed to either fever or assassination.",
   fun_fact: "Tacitus claimed descent from the famous Roman historian Tacitus.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tacitus_Museo_Capitolino_MC1840.jpg/300px-Tacitus_Museo_Capitolino_MC1840.jpg"
+  image_url: "https://cdn.britannica.com/30/132530-004-2BF62A0F/portrait-Tacitus-coin-mint-Ticinum-276-AD.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -597,7 +597,7 @@ Emperor.create({
   bio: "Florian was a Roman Emperor who reigned for only a few months in 276 AD. He was the half-brother of Tacitus and claimed the throne after Tacitus's death. However, his rule was not widely accepted by the army, who favored Probus. Florian was assassinated by his own soldiers.",
   fun_fact: "Florian's brief reign was marked by a power struggle with Probus.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Florian_Museo_Capitolino_MC1841.jpg/300px-Florian_Museo_Capitolino_MC1841.jpg"
+  image_url: "https://roman-empire.net/wp-content/uploads/2021/12/Marcus-Annius-Florianus-Florian-765x1024.jpg"
 })
 
 Emperor.create({
@@ -610,7 +610,7 @@ Emperor.create({
   bio: "Probus was a Roman Emperor who ruled from 276 to 282 AD. He was a capable military leader who focused on restoring order and security to the empire after the turbulent reigns of his predecessors. He campaigned successfully against barbarians on the Rhine and Danube frontiers and also undertook internal improvements. Despite his successes, he was eventually assassinated by mutinous soldiers.",
   fun_fact: "Probus famously tried to keep his soldiers busy during peacetime by having them plant vineyards.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Probus_Museo_Capitolino_MC1842.jpg/300px-Probus_Museo_Capitolino_MC1842.jpg"
+  image_url: "https://cdn.britannica.com/89/123189-004-7BF5D8C8/Probus-coin-Roman.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -623,7 +623,7 @@ Emperor.create({
   bio: "Carus was a Roman Emperor who ruled briefly from 282 to 283 AD. He was proclaimed emperor by the army after the assassination of Probus. Carus led a successful military campaign against the Sasanian Persians in the East, even capturing their capital Ctesiphon. However, his reign was cut short by his sudden death under mysterious circumstances.",
   fun_fact: "Carus reportedly claimed that his sons, Numerian and Carinus, were greater emperors than Romulus, the founder of Rome.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Carus_Museo_Capitolino_MC1843.jpg/300px-Carus_Museo_Capitolino_MC1843.jpg"
+  image_url: "https://cdn.britannica.com/19/132519-050-0839EE13/Carus-portrait-coin.jpg"
 })
 
 Emperor.create({
@@ -636,7 +636,7 @@ Emperor.create({
   bio: "Numerian was a Roman Emperor who ruled jointly with his brother Carinus after the death of their father Carus. He was considered to be more intellectual and less militarily inclined than his brother. While returning from the successful Persian campaign, Numerian fell ill and died under suspicious circumstances. His death paved the way for Diocletian to seize power.",
   fun_fact: "Numerian was known for his literary interests and was said to have been a skilled orator and poet.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Numerian_Museo_Capitolino_MC1844.jpg/300px-Numerian_Museo_Capitolino_MC1844.jpg"
+  image_url: "https://cdn.britannica.com/81/123181-004-C52A98E3/Numerian-coin-Roman.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -649,7 +649,7 @@ Emperor.create({
   bio: "Carinus was a Roman Emperor who ruled jointly with his brother Numerian and then briefly as sole emperor. He was known for his unpopular and scandalous personal life, but he was also militarily active. His reign ended when he was defeated and killed in battle against Diocletian.",
   fun_fact: "Carinus was said to have had multiple wives and engaged in scandalous behavior that alienated the Roman aristocracy.",
   category: "Crisis of the Third Century",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Carinus_Museo_Capitolino_MC1845.jpg/300px-Carinus_Museo_Capitolino_MC1845.jpg"
+  image_url: "https://cdn.britannica.com/45/44045-004-518D6022/Carinus-marble-bust-Rome-Capitoline-Museum.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -662,7 +662,7 @@ Emperor.create({
   bio: "Diocletian was a Roman Emperor who ruled from 284 to 305 AD. He is famous for his reforms, most notably the division of the Roman Empire into the Western and Eastern halves, each ruled by an Augustus, with a Caesar as junior co-emperor (the Tetrarchy). He aimed to bring stability after the Crisis of the Third Century. His reign also saw the last major persecution of Christians in the Roman Empire before Christianity became legal.",
   fun_fact: "After abdicating, Diocletian retired to his palace in Dalmatia (modern Croatia) and famously grew cabbages, refusing to return to imperial politics.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Diocletian_Split.jpg/300px-Diocletian_Split.jpg"
+  image_url: "https://cdn.britannica.com/51/226851-050-CFEE3E1B/Diocletian-bust.jpg"
 })
 
 Emperor.create({
@@ -675,7 +675,7 @@ Emperor.create({
   bio: "Maximian was a Roman Emperor who ruled as co-emperor with Diocletian from 286 to 305 AD, governing the Western Roman Empire. He was a military man who helped Diocletian stabilize the empire through the Tetrarchy system. He also abdicated in 305 AD but briefly returned to power during the subsequent political turmoil before being defeated and eventually killed.",
   fun_fact: "Maximian was known for his military prowess and was Diocletian's trusted military partner.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Maximianus_Museo_Capitolino_MC1847.jpg/300px-Maximianus_Museo_Capitolino_MC1847.jpg"
+  image_url: "https://cdn.britannica.com/52/125552-004-CDD3839E/Maximian-portrait-coin.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -688,7 +688,7 @@ Emperor.create({
   bio: "Constantius I Chlorus was a Roman Emperor who ruled the Western Roman Empire as Caesar (junior emperor) from 293 to 305 AD and as Augustus (senior emperor) from 305 to 306 AD. He was known for his relatively tolerant policies towards Christians and for his military campaigns in Britain.",
   fun_fact: "Constantius I was the father of Constantine the Great.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Konstantios_I_Glyptothek_Munich_548.jpg/300px-Konstantios_I_Glyptothek_Munich_548.jpg"
+  image_url: "https://cdn.britannica.com/40/12740-004-42E9B140/marble-bust-Constantius-I-Chlorus-Rome-Capitoline.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -701,7 +701,7 @@ Emperor.create({
   bio: "Galerius was a Roman Emperor who ruled the Eastern Roman Empire as Caesar from 293 to 305 AD and as Augustus from 305 to 311 AD. He initially continued Diocletian's persecution of Christians but later issued the Edict of Serdica, granting tolerance to Christians.",
   fun_fact: "Galerius built a magnificent palace at his birthplace, Felix Romuliana, which is now a UNESCO World Heritage site.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Galerius_Romuliana.jpg/300px-Galerius_Romuliana.jpg"
+  image_url: "https://cdn.britannica.com/35/11635-004-2172A62B/Galerius-marble-bust-Rome-Capitoline-Museum.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -714,7 +714,7 @@ Emperor.create({
   bio: "Severus II was a Roman Emperor who briefly ruled the Western Roman Empire as Augustus. He was initially appointed Caesar by Constantius I. After Constantius's death, he became Augustus but faced challenges from Maxentius and was eventually captured and forced to commit suicide.",
   fun_fact: "Severus II's reign was largely overshadowed by the power struggles following Diocletian's abdication.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Severus_II_Augustus.jpg/300px-Severus_II_Augustus.jpg"
+  image_url: "https://cdn.britannica.com/28/132528-004-A051D3D7/portrait-Severus-coin-mint-Trier-307-AD.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -727,7 +727,7 @@ Emperor.create({
   bio: "Maxentius was a Roman Emperor who controlled Italy and North Africa as a usurper. He was the son of the former Emperor Maximian. He seized power after the death of Constantius I and resisted the authority of other emperors, including Constantine I. He was eventually defeated and killed by Constantine at the Battle of the Milvian Bridge.",
   fun_fact: "The Battle of the Milvian Bridge, where Constantine defeated Maxentius, is said to have been preceded by Constantine's vision of a Christian symbol.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Maxentius_Museo_Capitolino_MC1850.jpg/300px-Maxentius_Museo_Capitolino_MC1850.jpg"
+  image_url: "https://i.namu.wiki/i/Jhj6nJuTUfzjzM3wbUWkXoGNdk_BfEEyE3UCbVpvN3mUP9vrNF1PFqAkyGohpCrqfkio972f1VJQpM68w7uOQDzrPUaHpNvgtjLeHDg6McPgJLAjq4gF0M_J7XQHuC98Hf7_iBR1dFnPMRoDEh8uJVGmA9vJktytws076sRYq3k.webp"
 })
 
 Emperor.create({
@@ -740,7 +740,7 @@ Emperor.create({
   bio: "Constantine the Great was a Roman Emperor who reunified the Roman Empire and made Christianity a legal religion with the Edict of Milan in 313 AD. He also founded the city of Constantinople (modern Istanbul) as the new capital of the Eastern Roman Empire. His reign marked a major turning point in Roman and Christian history.",
   fun_fact: "Constantine I was the first Roman Emperor to convert to Christianity.",
   category: "Constantinian Dynasty",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Constantine_I%2C_Palazzo_dei_Conservatori.jpg/300px-Constantine_I%2C_Palazzo_dei_Conservatori.jpg"
+  image_url: "https://cdn.britannica.com/47/135347-050-892BBD54/Portrait-head-marble-Constantine-I-Roman-New-370-ce.jpg"
 })
 
 Emperor.create({
@@ -753,7 +753,7 @@ Emperor.create({
   bio: "Galerius Valerius Maximinus (also known as Maximinus Daia or Maximinus II) was a Roman Emperor who ruled the Eastern Roman Empire. He initially opposed Constantine and Licinius but was eventually defeated by Licinius. He briefly resumed the persecution of Christians after Galerius's edict of tolerance.",
   fun_fact: "Maximinus II was the nephew of Galerius.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Maximinus_Daia_Istanbul_Archaeology_Museums.jpg/300px-Maximinus_Daia_Istanbul_Archaeology_Museums.jpg"
+  image_url: "https://cdn.britannica.com/69/36169-004-6B169855/Galerius-marble-bust-Valerius-Maximinus-Egyptian-Museum.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -766,7 +766,7 @@ Emperor.create({
   bio: "Licinius was a Roman Emperor who ruled the Eastern Roman Empire and was a rival of Constantine I. He initially co-issued the Edict of Milan with Constantine but later reversed his policies towards Christians. He was eventually defeated by Constantine in a series of battles and executed.",
   fun_fact: "Licinius was initially a close ally of Constantine.",
   category: "Tetrarchy",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Licinius_I_Istanbul_Archaeology_Museums.jpg/300px-Licinius_I_Istanbul_Archaeology_Museums.jpg"
+  image_url: "https://cdn.britannica.com/49/125549-004-C7E77B8A/Licinius-portrait-coin.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -779,7 +779,7 @@ Emperor.create({
   bio: "Constantine II was a Roman Emperor, the eldest son of Constantine the Great. After his father's death, he ruled over Gaul, Britain, and Hispania. He was killed in a conflict with his younger brother Constans I.",
   fun_fact: "Constantine II's reign saw early conflicts among Constantine's sons over the division of the empire.",
   category: "Constantinian Dynasty",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Constantine_II_as_Caesar.jpg/300px-Constantine_II_as_Caesar.jpg"
+  image_url: "https://cdn.britannica.com/87/131287-050-9DE4F265/solidus-Constantine-II.jpg"
 })
 
 Emperor.create({
@@ -792,7 +792,7 @@ Emperor.create({
   bio: "Constantius II was a Roman Emperor, the second son of Constantine the Great. He ruled the Eastern Roman Empire and eventually became the sole emperor after conflicts with his brothers. His reign was marked by wars on the eastern frontier with Persia and internal religious debates, particularly the Arian controversy.",
   fun_fact: "Constantius II founded the Hagia Sophia in Constantinople, though the later, grander version was built by Justinian I.",
   category: "Constantinian Dynasty",
-  image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Constantius_II_as_Augustus.jpg/300px-Constantius_II_as_Augustus.jpg"
+  image_url: "https://cdn.britannica.com/95/125095-004-F43068A9/Constantius-II-portrait-gold-coin-reign-mint.jpg?s=1500x700&q=85"
 })
 
 Emperor.create({
@@ -1165,3 +1165,215 @@ puts "Successfully created #{Emperor.count} emperors."
 # Add more emperors here using the data from the JSON response
 
 puts "Successfully created #{Emperor.count} emperors."
+
+
+RomanPlace.create({
+ name: "The Colosseum",
+ location: "Rome, Italy",
+ description: "* What is it? * The Colosseum was a HUGE, round building in the city of Rome, kind of like a giant sports stadium! Its real name was the Flavian Amphitheatre.
+   * When was it built? * A very, very long time ago, almost 2000 years ago! It was finished around 80 AD (that's after the time of Jesus!).
+   * What happened there? * Lots of exciting (and sometimes a bit scary!) things happened in the Colosseum: Gladiator Fights, Animal Shows, Pretend Sea Battles, Public Events.
+   * How big was it? * Enormous! It could hold as many people as a very big modern football stadium – maybe even more than 50,000 people!
+   * What does it look like now? * Mostly ruins – bits of walls and arches are still standing. But it's still amazing to see how big and grand it once was! It reminds us of the powerful Roman Empire.",
+ fun_fact: "* Fun Fact! * The Colosseum was built with special trapdoors and tunnels under the floor. This is how the gladiators and animals could suddenly appear in the middle of the arena!",
+ image_url: "https://cdn.britannica.com/36/162636-050-932C5D49/Colosseum-Rome-Italy.jpg",
+ build_date: 80,
+ category: "Entertainment"
+})
+
+RomanPlace.create({
+ name: "Pompeii",
+ location: "Near Naples, Italy",
+ description: "* What is it? * Pompeii was a busy Roman city with lots of houses, shops, and even a big stadium!
+   * When did it disappear? * A very long time ago, in 79 AD, a nearby volcano called Mount Vesuvius erupted and covered the whole city in ash!
+   * What's so special about it now? * Because the ash buried it so quickly, Pompeii is like a time capsule! You can still see the streets, buildings, and even some of the people just as they were almost 2000 years ago.
+   * What can you see there? * You can walk along the old streets, see the ruins of houses with their paintings, visit the public baths, and even see the remains of the people who were caught in the eruption.
+   * Fun Fact! * Some of the empty spaces left by the bodies buried in ash were filled with plaster, creating amazing 'casts' that show the shapes of the people and even their expressions!",
+ fun_fact: "* Fun Fact! * Some of the houses in Pompeii had special mosaic pictures on the floor that were like 'beware of the dog' signs!",
+ image_url: "https://static.toiimg.com/thumb/95551327.cms?resizemode=75&width=1200&height=900",
+ build_date: -600, # Approximate founding date
+ category: "Archaeological site"
+})
+
+RomanPlace.create({
+ name: "Hadrian's Wall",
+ location: "Northern England, UK",
+ description: "* What is it? * Hadrian's Wall was a HUGE wall built by the Roman army across the north of England. It was like a giant line in the sand (or rather, stone!) to mark the edge of Roman land.
+   * Who built it? * A Roman Emperor called Hadrian ordered it to be built nearly 2000 years ago!
+   * Why was it built? * It was built to keep out tribes from the north (who weren't part of the Roman Empire) and to control who came in and out of Roman Britain.
+   * How long was it? * It was really long – about 73 miles (that's like walking for many, many days!).
+   * What could you see on the wall? * Along the wall, there were forts for soldiers to live in, towers to keep watch, and gates for people to pass through.",
+ fun_fact: "* Fun Fact! * Some parts of Hadrian's Wall are still standing today, and you can even walk along them and imagine what it was like for the Roman soldiers!",
+ image_url: "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/housesteads-roman-fort/gallery/galleryreconstructiondrawinghadrianswallwalltowncragsj940488.jpg",
+ build_date: 122,
+ category: "Military Structure"
+})
+
+RomanPlace.create({
+ name: "The Circus Maximus",
+ location: "Rome, Italy",
+ description: "* What was it? * The Circus Maximus was a HUGE, long, open-air stadium in Rome, mostly used for exciting chariot races! Imagine a race track, but super, super long and wide.
+   * What happened there? * The main event was chariot racing! Teams of horses pulled fast carts driven by charioteers who would race around the track. It was very noisy and lots of fun to watch! Sometimes there were also parades and other public shows.
+   * How big was it? * It was MASSIVE! It could hold hundreds of thousands of people – maybe even up to 250,000! That's like filling many modern stadiums all at once!
+   * What does it look like now? * Today, the Circus Maximus is mostly a big grassy space. You can still see the outline of the track and some of the banks where people used to sit. It gives you an idea of just how enormous it once was.",
+ fun_fact: "* Fun Fact! * There was a special dividing barrier down the middle of the track called the 'spina'. It often had statues and monuments on it!",
+ image_url: "https://imperiumromanum.pl/wp-content/uploads/2015/01/8cdccefba7a81f403ece84970187892e.jpg",
+ build_date: -6, # Approximate early construction
+ category: "Entertainment"
+})
+
+RomanPlace.create({
+ name: "The Roman Forum",
+ location: "Rome, Italy",
+ description: "* What was it? * The Roman Forum was like the main town square in ancient Rome! It was a busy place where important things happened.
+   * What happened there? * People would meet to talk about news, make laws, and hold religious ceremonies. There were also shops and important buildings like temples and government offices.
+   * Why was it important? * It was the center of Roman life for hundreds of years, from when Rome was just a small town to when it was the capital of a huge empire!
+   * What can you see there now? * Today, it's mostly ruins – broken columns, bits of walls, and the foundations of old buildings. But if you use your imagination, you can picture how busy and important it once was.",
+ fun_fact: "* Fun Fact! * There's a special stone in the Forum called the 'Umbilicus Urbis' which the Romans believed was the very center of the city!",
+ image_url: "https://cdn.britannica.com/99/128399-050-EB6E336F/Temple-of-Saturn-Roman-Forum-Rome.jpg",
+ build_date: -7, # Approximate early development
+ category: "Civic Center"
+})
+
+RomanPlace.create({
+ name: "The Pantheon",
+ location: "Rome, Italy",
+ description: "* What is it? * The Pantheon is an amazing ancient Roman temple that's still standing almost perfectly today! It's famous for its huge round dome with a big hole in the top.
+   * Who was it for? * It was built to honor all the gods of ancient Rome. 'Pantheon' means 'temple to all the gods'.
+   * What's special about the dome? * The dome is HUGE and it doesn't have any pillars holding it up inside! The hole in the top, called the 'oculus', lets in sunlight and sometimes rain!
+   * What is it now? * Today, the Pantheon is a church, and lots of people still visit it to see its incredible architecture.",
+ fun_fact: "* Fun Fact! * When it rains in Rome, water comes through the oculus in the Pantheon, but the floor has a special drainage system to take it away!",
+ image_url: "https://www.italiandualcitizenship.net/wp-content/uploads/2019/03/History-of-the-Pantheon-Italy.jpg",
+ build_date: 126, # Rebuilt by Hadrian
+ category: "Religious Building"
+})
+
+RomanPlace.create({
+ name: "The Baths of Caracalla",
+ location: "Rome, Italy",
+ description: "* What were they? * The Baths of Caracalla were like giant public swimming pools and leisure centers in ancient Rome! They were much more than just places to get clean.
+   * What could you do there? * People could swim in huge pools, exercise in gyms, read in libraries, stroll through gardens, and even get massages! It was a place to relax and socialize.
+   * How big were they? * They were ENORMOUS! They could hold thousands of people at the same time. Imagine a giant water park and community center all in one!
+   * What can you see now? * Today, the Baths of Caracalla are mostly impressive ruins – big walls and arches that show how grand they once were. Sometimes they even hold outdoor concerts and operas there!",
+ fun_fact: "* Fun Fact! * The Romans even had heated floors in the baths to keep everyone warm in the winter!",
+ image_url: "https://www.domusweb.it/content/dam/domusweb/en/art/gallery/2024/04/11/le-terme-di-caracalla/domus-caracalla-7.jpg",
+ build_date: 216,
+ category: "Leisure"
+})
+
+RomanPlace.create({
+ name: "Leptis Magna",
+ location: "Libya",
+ description: "* What was it? * Leptis Magna was a big and important Roman city on the coast of North Africa, like a bustling port for trading goods.
+   * Why was it important? * It was a major center for trade and grew very wealthy. The Roman Emperor Septimius Severus was even born there, which made it even more special!
+   * What could you see there? * It had grand buildings like arches, temples, public baths, a big theater, and long streets with columns. The harbor was also very important for ships.
+   * What's it like now? * Today, the ruins of Leptis Magna are incredibly well-preserved because they were buried in sand for many years. It's like walking through a real Roman city!",
+ fun_fact: "* Fun Fact! * Because Emperor Septimius Severus loved his hometown so much, he made sure it had even more beautiful buildings and grew even bigger!",
+ image_url: "https://cdn.britannica.com/04/178004-050-86D5A469/Remains-amphitheatre-Roman-Libya-Leptis-Magna.jpg",
+ build_date: -7, # Approximate early settlement
+ category: "Archaeological Site"
+})
+
+RomanPlace.create({
+ name: "Ephesus",
+ location: "Turkey",
+ description: "* What was it? * Ephesus was a very old and important city in what is now Turkey. It started as a Greek city but became a big Roman center.
+   * What was famous there? * One of the Seven Wonders of the Ancient World, the Temple of Artemis, was located in Ephesus! There was also a huge library called the Library of Celsus, which was very beautiful.
+   * What else could you see? * It had a massive theater where lots of people could watch plays and shows, long marble streets, and public baths. It was a very busy and important city.
+   * What's it like now? * Today, Ephesus has amazing ruins that you can walk through, including the impressive Library of Celsus and the huge theater. You can imagine what it was like to live in a big Roman city so long ago.",
+ fun_fact: "* Fun Fact! * The Library of Celsus had secret passages and even a tunnel that led to a nearby brothel!",
+ image_url: "https://images.musement.com/cover/0086/01/thumb_8500646_cover_header.jpeg",
+ build_date: -10, # Approximate early settlement
+ category: "Archaeological Site"
+})
+
+RomanPlace.create({
+ name: "Baalbek",
+ location: "Lebanon",
+ description: "* What is it? * Baalbek is a place in Lebanon with some of the biggest and most amazing Roman temples ever built! They are HUGE!
+   * Who built them? * The Romans built these massive temples a very long time ago to honor their gods, like Jupiter and Bacchus.
+   * What's so special about them? * The size of the stones used to build these temples is incredible! Some of the biggest stones ever used in construction are found here. The Temple of Bacchus is also one of the best-preserved Roman temples in the world.
+   * What can you see there? * You can see giant columns, huge walls, and the remains of these enormous temples. It makes you wonder how they built such massive structures so long ago!",
+ fun_fact: "* Fun Fact! * One of the stones at Baalbek, called the 'Stone of the Pregnant Woman', weighs over 1,000 tons – that's heavier than a jumbo jet!",
+ image_url: "https://ucarecdn.com/be8c0759-153a-42a0-bd03-eb5bf8fea1d6/-/crop/6554x3443/0,806/-/resize/1200x630/-/resize/x300/",
+ build_date: -2, # Start of Roman construction
+ category: "Religious Site"
+})
+
+RomanPlace.create({
+ name: "Jerash",
+ location: "Jordan",
+ description: "* What is it? * Jerash is an ancient city in Jordan that was once a part of the Roman Empire. It's really well-preserved, so it feels like stepping back in time!
+   * What can you see there? * You can walk down long streets with tall columns on both sides (called colonnaded streets), visit temples to Roman gods, see two big theaters where performances were held, and explore public squares and fountains.
+   * Why is it so well-preserved? * Because it was buried by sand for many years, much of the city was protected from the weather and damage.
+   * What does it remind people of? * Because it's so well-preserved, some people call Jerash the 'Pompeii of the East'!",
+ fun_fact: "* Fun Fact! * The main colonnaded street in Jerash is called the Cardo, and you can still see the wheel ruts from ancient chariots in the stone pavement!",
+ image_url: "https://universes.art/fileadmin/user_upload/Art-Destinations/Jordan/Jerash/05-South-Theatre/01-IMG_5438-1000-715.jpg",
+ build_date: -4, # Start of Hellenistic/Roman influence
+ category: "Archaeological Site"
+})
+
+RomanPlace.create({
+ name: "The Roman Baths",
+ location: "Bath, UK",
+ description: "* What are they? * The Roman Baths in Bath are amazing ancient pools and buildings built around natural hot springs by the Romans.
+   * Why were they built here? * The Romans loved natural hot springs for their relaxing and healing properties, so they built a big bathing complex here.
+   * What could you do there? * People could soak in warm pools, sweat in saunas, and even visit temples dedicated to the goddess Sulis Minerva. It was a social place as well as a place to get clean.
+   * What can you see now? * Today, you can still see the ancient bathing pools, the remains of the temples, and learn all about Roman bathing habits.",
+ fun_fact: "* Fun Fact! * The Romans even threw coins into the sacred spring as offerings to the goddess!",
+ image_url: "https://www.cuddlynest.com/blog/wp-content/uploads/2023/04/roman_baths_at_bath_roman_bath_house.jpg",
+ build_date: 1, # Approximate start of construction
+ category: "Leisure"
+})
+
+RomanPlace.create({
+ name: "Nîmes Arena (Les Arènes de Nîmes)",
+ location: "Nîmes, France",
+ description: "* What is it? * The Nîmes Arena is a very well-preserved Roman amphitheater, just like the Colosseum but in France!
+   * What happened there? * Just like the Colosseum, it was used for exciting (and sometimes a bit scary!) events like gladiator fights and animal shows for the Roman people.
+   * How big was it? * It was HUGE and could hold tens of thousands of spectators who came to watch the spectacles.
+   * What does it look like now? * Amazingly, it's still standing tall and is used today for concerts and other events! It's a fantastic example of Roman building skills.",
+ fun_fact: "* Fun Fact! * In the Middle Ages, people even built houses inside the walls of the arena!",
+ image_url: "https://www.historyhit.com/app/uploads/bis-images/5149870/Nimes-Arena-e1633702862401-788x537.jpg?x91233",
+ build_date: 1,
+ category: "Entertainment"
+})
+
+RomanPlace.create({
+ name: "Segovia Aqueduct",
+ location: "Segovia, Spain",
+ description: "* What is it? * The Segovia Aqueduct is a HUGE bridge made of stone that the Romans built to carry water into the city of Segovia.
+   * Why was it built? * The Romans were clever engineers, and they built aqueducts to bring fresh water from far away to their towns and cities.
+   * What's amazing about it? * It's incredibly tall and made of lots of stone blocks that fit together perfectly without any cement! It's been standing for almost 2000 years!
+   * What does it look like now? * It's still in very good shape and is a famous landmark in Spain. You can see how the water flowed along the top of the arches.",
+ fun_fact: "* Fun Fact! * The highest part of the aqueduct is about as tall as a ten-story building!",
+ image_url: "https://cdn.britannica.com/85/102585-050-41CB410A/Segovia-aqueduct-Spain.jpg",
+ build_date: 1,
+ category: "Infrastructure"
+})
+
+RomanPlace.create({
+ name: "Porta Nigra",
+ location: "Trier, Germany",
+ description: "* What is it? * The Porta Nigra is a HUGE and very old city gate in the city of Trier, Germany, that was built by the Romans.
+   * What was it for? * It was one of the main entrances to the Roman city of Augusta Treverorum (which is now Trier). It was like a giant doorway to the city.
+   * What's special about it? * It's one of the largest and best-preserved Roman city gates north of the Alps. It's really big and strong!
+   * What does it look like now? * It's still standing and looks very impressive with its dark sandstone blocks. You can even go inside and climb to the top!",  fun_fact: "* Fun Fact! * In the Middle Ages, the Porta Nigra was turned into a church!",
+ image_url: "https://images.ctfassets.net/w2xcep4i3dcd/3aR0l1jtOwLV85hiR8K3AI/b96d2ece2a3a759d396130cb0bce7c29/Porta_Nigra_01_84530_84517.jpg?fit=fill&fm=jpg&w=1800&h=1200",
+ build_date: 2,
+ category: "Structure"
+})
+
+RomanPlace.create({
+ name: "Pula Arena",
+ location: "Pula, Croatia",
+ description: "* What is it? * The Pula Arena is a big, oval-shaped building in Croatia that the Romans built for entertainment, just like the Colosseum in Rome.
+   * What happened there? * Gladiators fought each other and wild animals were shown to the crowds. It was a place for exciting public spectacles.
+   * How big was it? * It could hold a lot of people – maybe around 20,000! That's like a good-sized modern sports stadium.
+   * What does it look like now? * It's very well-preserved, and you can still see most of the walls and arches. It's even used for concerts and festivals today!",
+ fun_fact: "* Fun Fact! * Underneath the arena, there were tunnels and cages where the gladiators and animals were kept before their shows!",
+ image_url: "https://pulainfo.hr/wp-content/uploads/2023/10/arena_wide_2_K.jpg",
+ build_date: 1,
+ category: "Entertainment"
+})
+puts "Seeded Roman Places!"

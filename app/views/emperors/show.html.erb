@@ -1,3 +1,4 @@
+<div class="emperor-details">
 <h1><%= @emperor.name %></h1>
 
 <p>Reign: <%= @emperor.reign_start&.year %> - <%= @emperor.reign_end&.year %></p>
@@ -9,3 +10,4 @@
 <% end %>
 
 <%= link_to 'Back to List', emperors_path %>
+</div>

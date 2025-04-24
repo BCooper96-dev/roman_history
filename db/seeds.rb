@@ -1377,3 +1377,200 @@ RomanPlace.create({
  category: "Entertainment"
 })
 puts "Seeded Roman Places!"
+
+God.create({
+ name: "Neptune",
+ greek_equivalent: "Poseidon",
+ realm: "The Sea, Oceans, Rivers, Storms, Earthquakes, and Horses!",
+ symbols: "His powerful three-pronged spear called a trident, horses, dolphins, and sometimes bulls.",
+ family: "Parents: Saturn and Ops; Brothers: Jupiter and Pluto; Wife: Salacia",
+ story: "When Neptune was a baby god, his father Saturn swallowed him! But Neptune was eventually saved. He later fought against Saturn and the Titans with his brothers. They won and divided the world: Neptune ruled the seas!",
+ powers: "Could control all the waters, create storms and waves, cause earthquakes with his trident, and had power over horses.",
+ fun_fact: "The big blue planet Neptune in our solar system is named after him!",
+ honored: "Romans built temples for him, especially near the sea. Sailors prayed to him for safe journeys, and they held festivals like the Neptunalia.",
+ appearance: "Often shown as a strong man with a long beard, sometimes with blue-green skin, holding a trident, and surrounded by waves and sea creatures.",
+ image_url: "https://images.squarespace-cdn.com/content/v1/5dfcdf49fed1bb50506fb980/1588283154214-6HDDUK44EOVYPQ3AU39M/740d98f0d9a4363820a46f8e5632c98d.jpg"
+})
+
+God.create({
+ name: "Mars",
+ greek_equivalent: "Ares",
+ realm: "War, Courage, Battle, and sometimes Agriculture (in early Roman history)",
+ symbols: "Spear, shield, helmet, dog, and vulture.",
+ family: "Parents: Jupiter and Juno; Lover of Venus; Father of Romulus and Remus (founders of Rome, in some myths)",
+ story: "Mars was a fierce and powerful god, always ready for battle! He loved the clash of swords and the thrill of combat. The Romans, being a powerful military people, greatly respected and honored Mars.",
+ powers: "Strength, courage, the ability to incite war, and mastery of weapons.",
+ fun_fact: "The month of March is named after Mars!",
+ honored: "The Romans built many temples to Mars, and fields were sometimes dedicated to him before harvest. Sacrifices and military rituals were performed in his honor, especially before going to war.",
+ appearance: "Usually depicted as a strong, muscular warrior wearing armor and a helmet, often carrying a spear and shield.",
+ image_url: "https://media.mythopedia.com/4Hx86UZNesjzQJNtUv7KGe/19009a11c1c4f4a952a7d860048ed24e/colossal-statue-mars-ultor-pyrrhus-capitoline-museum-rome.jpg?w=1920&q=60&auto=compress,format"
+})
+
+God.create({
+ name: "Apollo",
+ greek_equivalent: "Apollo (the names are the same in both mythologies)",
+ realm: "Music, Poetry, Light, the Sun, Healing, Prophecy, Archery, and sometimes associated with young men and beauty.",
+ symbols: "Lyre (a stringed musical instrument), bow and arrows, laurel wreath, the sun, and sometimes snakes.",
+ family: "Parents: Jupiter and Leto; Twin brother of Diana (Artemis in Greek).",
+ story: "Apollo was a very important and versatile god! He was known for his talent in music and poetry, often playing his golden lyre. He was also a skilled archer, a god of healing, and had the power of prophecy, able to see into the future.",
+ powers: "Musical talent, poetic inspiration, healing, prophecy, mastery of archery, and bringing light.",
+ fun_fact: "The famous Oracle at Delphi, where people would go to hear prophecies, was sacred to Apollo!",
+ honored: "The Romans built many temples to Apollo, and he was honored with festivals, songs, and poetry. Laurel wreaths, associated with his triumph over the Python, were often given as prizes in competitions.",
+ appearance: "Usually depicted as a handsome, athletic young man, often with long hair, wearing a laurel wreath, and holding a lyre or a bow and arrows.",
+ image_url: "https://kids.kiddle.co/images/thumb/0/02/Apollo_Musagetes_Pio-Clementino_Inv310.jpg/250px-Apollo_Musagetes_Pio-Clementino_Inv310.jpg"
+})
+
+God.create({
+ name: "Vulcan",
+ greek_equivalent: "Hephaestus",
+ realm: "Fire, Metalworking, Blacksmiths, Craftsmen, Volcanoes.",
+ symbols: "Hammer, tongs, anvil, and fire.",
+ family: "Parents: Jupiter and Juno (though some myths say Juno conceived him alone); Husband of Venus (though an often unhappy marriage).",
+ story: "Vulcan was the hardworking god of fire and the forge! He was incredibly skilled at crafting all sorts of things from metal, including weapons for the gods and goddesses. Despite his talent, he was sometimes depicted as being lame (having a disability), and in some stories, he was thrown from Mount Olympus.",
+ powers: "Mastery of fire and the forge, incredible skill in metalworking and crafting.",
+ fun_fact: "Volcanoes are named after Vulcan, because of the fiery power that comes from the earth!",
+ honored: "The Romans honored Vulcan with a festival called the Vulcanalia, where they would build bonfires. Blacksmiths and other craftsmen especially revered him.",
+ appearance: "Often depicted as a strong, bearded man, sometimes with a limp, working at a forge with a hammer and anvil, and surrounded by fire.",
+ image_url: "https://images.squarespace-cdn.com/content/v1/5dfcdf49fed1bb50506fb980/1583371216749-GEZ82Z9IUV8KK70X1N2I/670ed67cc5541d94207633ab0b43339c.jpg"
+})
+
+God.create({
+ name: "Venus",
+ greek_equivalent: "Aphrodite",
+ realm: "Love, Beauty, Pleasure, and Fertility.",
+ symbols: "Dove, swan, rose, myrtle, and scallop shell.",
+ family: "Born from sea foam (in some myths); Mother of Cupid (Eros in Greek) and Aeneas (a hero important to Roman founding myths).",
+ story: "Venus was the goddess of love and beauty, said to be incredibly beautiful herself! Her charm and allure could influence both gods and mortals.",
+ powers: "Inspiring love and desire, bestowing beauty and grace.",
+ fun_fact: "The planet Venus is named after her and is often associated with beauty and brightness!",
+ honored: "Romans built temples to Venus, and she was honored with festivals, especially in April.",
+ appearance: "Usually depicted as a stunningly beautiful woman, often accompanied by her symbols like doves or roses, sometimes rising from the sea.",
+ image_url: "https://i.pinimg.com/474x/70/a1/6b/70a16bfe64d69a2170ac7c68a17cea4e.jpg"
+})
+
+God.create({
+ name: "Mercury",
+ greek_equivalent: "Hermes",
+ realm: "Messengers, Communication, Trade, Travelers, Thieves, and Boundaries.",
+ symbols: "Winged sandals (talaria), winged helmet (petasos), and a staff with two snakes coiled around it (caduceus).",
+ family: "Parents: Jupiter and Maia.",
+ story: "Mercury was the swift messenger of the gods, able to travel quickly between the heavens and the earth with his winged sandals. He was also the patron of merchants and travelers, but also known for his cleverness and trickery.",
+ powers: "Super speed, delivering messages, facilitating trade, guiding travelers, and cunning.",
+ fun_fact: "Mercury is the name of the closest and fastest-orbiting planet in our solar system, fitting for the swift messenger god!",
+ honored: "Romans honored Mercury with temples and festivals, especially those involved in trade and travel.",
+ appearance: "Usually depicted as a young, athletic man with winged sandals and helmet, carrying the caduceus.",
+ image_url: "https://static.wikia.nocookie.net/mythology/images/1/19/Evelyn_de_Morgan_-_Mercury%2C_1870-1873.jpg/revision/latest?cb=20200116034046"
+})
+
+God.create({
+ name: "Diana",
+ greek_equivalent: "Artemis",
+ realm: "The Hunt, Wilderness, Wild Animals, the Moon, and Childbirth.",
+ symbols: "Bow and arrows, hunting dogs, deer, and the crescent moon.",
+ family: "Parents: Jupiter and Leto; Twin sister of Apollo.",
+ story: "Diana was a fierce and independent goddess of the hunt and the wilderness. She was a skilled archer and preferred the company of her hunting dogs and the creatures of the forest. She was also associated with the moon.",
+ powers: "Mastery of archery and hunting, protection of wild animals and the wilderness, association with the moon.",
+ fun_fact: "The Roman festival of Diana Nemorensis involved a sacred grove and a unique tradition of succession for its priest!",
+ honored: "Romans built temples to Diana in the countryside and honored her with hunting rituals.",
+ appearance: "Usually depicted as a young, athletic woman dressed for hunting, often carrying a bow and arrows and accompanied by a deer or hunting dogs, sometimes with a crescent moon above her head.",
+ image_url: "https://www.worldhistory.org/img/r/p/500x600/684.jpg?v=1715807289"
+})
+
+God.create({
+ name: "Jupiter",
+ greek_equivalent: "Zeus",
+ realm: "King of the Gods, Sky, Thunder, Lightning, Law, Order.",
+ symbols: "Thunderbolt, eagle, oak tree.",
+ family: "Parents: Saturn and Ops; Brothers: Neptune and Pluto; Husband of Juno.",
+ story: "Jupiter became the powerful ruler of the gods after overthrowing his father Saturn. He controlled the sky and weather, especially thunder and lightning, and was seen as the protector of Rome.",
+ powers: "Control over thunder and lightning, immense power, maintaining order and justice.",
+ fun_fact: "The Romans believed that the weather, especially thunder, could be a sign of Jupiter's will!",
+ honored: "The Temple of Jupiter Optimus Maximus on the Capitoline Hill in Rome was one of the most important temples. He was honored with grand festivals and sacrifices.",
+ appearance: "Often depicted as a majestic, bearded man, holding a thunderbolt or scepter, and sometimes accompanied by an eagle.",
+ image_url: "https://www.crystalinks.com/zeusjupiter.jpg"
+})
+
+God.create({
+ name: "Juno",
+ greek_equivalent: "Hera",
+ realm: "Queen of the Gods, Marriage, Women, and Childbirth.",
+ symbols: "Peacock, cow, and pomegranate.",
+ family: "Parents: Saturn and Ops; Sister and wife of Jupiter.",
+ story: "Juno was the powerful queen of the gods and the protector of marriage and women. She was often depicted as majestic and sometimes jealous of Jupiter's infidelities.",
+ powers: "Protecting marriage and childbirth, queenly authority.",
+ fun_fact: "The month of June is named after Juno!",
+ honored: "Juno had important temples in Rome, and she was honored with festivals, especially those related to women and marriage.",
+ appearance: "Usually depicted as a stately and beautiful woman, often wearing a crown and sometimes accompanied by a peacock.",
+ image_url: "https://mariamilani.com/wp-content/uploads/2022/01/CE77D6BB-B027-4599-9E2C-FE60BB7EC741.jpeg"
+})
+
+God.create({
+ name: "Pluto",
+ greek_equivalent: "Hades",
+ realm: "The Underworld, Death, and Hidden Wealth (gems and precious metals beneath the earth).",
+ symbols: "Helm of darkness, Cerberus (the three-headed dog), cypress tree, and sometimes a bident (two-pronged fork).",
+ family: "Parents: Saturn and Ops; Brothers: Jupiter and Neptune; Wife: Proserpina (Persephone in Greek).",
+ story: "Pluto was the stern and unyielding ruler of the Underworld, the realm of the dead. He was also associated with the riches found beneath the earth.",
+ powers: "Rulership over the dead and the Underworld, control over precious metals.",
+ fun_fact: "Romans sometimes avoided saying his name directly, fearing to attract his attention!",
+ honored: "While not as widely worshipped with grand temples as other gods, Pluto had altars and was honored in rituals connected to death and the afterlife.",
+ appearance: "Often depicted as a dark and imposing figure, sometimes wearing his helm of darkness or accompanied by Cerberus.",
+ image_url: "https://m.media-amazon.com/images/I/71UdxIwiQ5L._AC_UF894,1000_QL80_.jpg"
+})
+
+God.create({
+ name: "Vesta",
+ greek_equivalent: "Hestia",
+ realm: "The Hearth, Home, and Family.",
+ symbols: "The sacred fire, which was kept burning in her temple.",
+ family: "Sister of Jupiter, Juno, Neptune, and Pluto; Daughter of Saturn and Ops.",
+ story: "Vesta was the gentle goddess of the hearth and home, representing the warmth and security of the family. Her sacred fire was the heart of Roman society and was constantly tended by her priestesses, the Vestal Virgins.",
+ powers: "Protecting the home and family, the embodiment of the sacred fire.",
+ fun_fact: "The Vestal Virgins, her priestesses, held a very important and respected position in Roman society!",
+ honored: "Her most important sanctuary was her temple in the Roman Forum, where the sacred fire burned continuously. Offerings were made to the fire for the well-being of the home and the state.",
+ appearance: "Often depicted as a modest, veiled woman, sometimes holding a flame.",
+ image_url: "https://static.wikia.nocookie.net/gods-goddess/images/a/ae/Goddess_Vesta.jpg/revision/latest?cb=20140808155506"
+})
+
+God.create({
+ name: "Ceres",
+ greek_equivalent: "Demeter",
+ realm: "Agriculture, Grain, Harvest, and Motherly Love.",
+ symbols: "Wheat, cornucopia (horn of plenty), and poppies.",
+ family: "Sister of Jupiter, Juno, Neptune, and Pluto; Mother of Proserpina (Persephone).",
+ story: "Ceres was the kind and nurturing goddess of agriculture, responsible for the growth of grains and the bounty of the harvest. Her grief when her daughter Proserpina was taken to the Underworld was said to cause winter.",
+ powers: "Controlling the growth of crops, ensuring a good harvest, motherly love and care.",
+ fun_fact: "The word 'cereal' comes from the name Ceres!",
+ honored: "Romans honored Ceres with festivals related to planting and harvesting, such as the Cerealia. She had important temples, and her worship was closely tied to the well-being of the community.",
+ appearance: "Usually depicted as a mature woman holding stalks of wheat or a cornucopia.",
+ image_url: "https://www.ceresva.org/Goddess/Ceres.jpg"
+})
+
+God.create({
+ name: "Cupid",
+ greek_equivalent: "Eros",
+ realm: "Love, Desire, and Attraction.",
+ symbols: "Bow and arrows (to pierce hearts with love), wings.",
+ family: "Son of Venus (in most myths).",
+ story: "Cupid was the mischievous god of love, often depicted as a winged boy who would shoot arrows to make people fall in love. His own love story with Psyche is a famous myth.",
+ powers: "Causing people to fall in love.",
+ fun_fact: "He is often shown blindfolded, representing the idea that love is blind!",
+ honored: "While not having major temples of his own, Cupid was often featured in art and was part of the worship of Venus.",
+ appearance: "Usually depicted as a winged young boy, often nude, carrying a bow and arrows.",
+ image_url: "https://static.wikia.nocookie.net/p__/images/7/71/Cupid_.png/revision/latest?cb=20210214192308&path-prefix=protagonist"
+})
+
+God.create({
+ name: "Saturn",
+ greek_equivalent: "Cronus",
+ realm: "Time, Agriculture, Wealth, Liberation, and the Harvest.",
+ symbols: "Sickle or scythe (associated with harvesting), lead.",
+ family: "Parents: Caelus (Uranus) and Terra (Gaia); Husband of Ops (Rhea); Father of Jupiter, Juno, Neptune, Pluto, Ceres, and Vesta.",
+ story: "Saturn was a powerful Titan who ruled before the Olympian gods. He swallowed his own children because of a prophecy that one of them would overthrow him. However, his wife Ops tricked him by giving him a stone wrapped in swaddling clothes instead of the infant Jupiter. Jupiter eventually grew up, freed his siblings, and led a revolt against Saturn and the Titans, defeating them and becoming the new ruler of the cosmos.",
+ powers: "Control over time, associated with agriculture and the harvest, representing wealth and periodic renewal.",
+ fun_fact: "The planet Saturn, famous for its beautiful rings, is named after this Roman god!",
+ honored: "The Romans honored Saturn with a major festival called the Saturnalia, a time of feasting, role reversals, and general merrymaking held in December. His temple in the Roman Forum was one of the oldest.",
+ appearance: "Often depicted as an older, bearded man, sometimes holding a sickle or scythe.",
+ image_url: "https://kids.kiddle.co/images/thumb/e/e2/Saturn_with_head_protected_by_winter_cloak%2C_holding_a_scythe_in_his_right_hand%2C_fresco_from_the_House_of_the_Dioscuri_at_Pompeii%2C_Naples_Archaeological_Museum_%2823497733210%29.jpg/250px-Saturn_with_head_protected_by_winter_cloak%2C_holding_a_scythe_in_his_right_hand%2C_fresco_from_the_House_of_the_Dioscuri_at_Pompeii%2C_Naples_Archaeological_Museum_%2823497733210%29.jpg"
+})
+puts "seeded roman gods"

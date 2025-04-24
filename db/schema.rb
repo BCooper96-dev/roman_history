@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_04_23_223214) do
+ActiveRecord::Schema[8.0].define(version: 2025_04_24_225219) do
   create_table "emperors", force: :cascade do |t|
     t.string "name"
     t.date "reign_start"
@@ -24,6 +24,22 @@ ActiveRecord::Schema[8.0].define(version: 2025_04_23_223214) do
     t.date "birth"
     t.date "death"
     t.string "category"
+  end
+
+  create_table "gods", force: :cascade do |t|
+    t.string "name"
+    t.string "realm"
+    t.text "symbols"
+    t.text "family"
+    t.text "story"
+    t.text "powers"
+    t.text "fun_fact"
+    t.text "honored"
+    t.text "appearance"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "greek_equivalent"
+    t.string "image_url"
   end
 
   create_table "roman_places", force: :cascade do |t|

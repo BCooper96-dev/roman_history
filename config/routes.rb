@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   resources :emperors, only: [:index, :show]
   resources :roman_places, only: [:index, :show]
+  resources :gods, only: [:index, :show]
   # ... other routes ...
 end

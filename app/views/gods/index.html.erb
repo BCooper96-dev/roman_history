@@ -1,0 +1,14 @@
+<h1>Gods & Mythology</h1>
+
+<div class="categories-container">
+  <% @gods_by_realm.each do |realm, gods| %>
+    <div class="category-group">
+      <h2><%= realm %></h2>
+      <ul>
+        <% gods.each do |god| %>
+          <li><%= link_to god.name, god_path(god) %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,25 @@
+<div class="fact-file-box">
+  <h1><%= @god.name %></h1>
+
+  <% if @god.greek_equivalent.present? %>
+    <p><strong>Greek Equivalent:</strong> <%= @god.greek_equivalent %></p>
+  <% end %>
+
+  <p><strong>Realm:</strong> <%= @god.realm %></p>
+  <p><strong>Symbols:</strong> <%= @god.symbols %></p>
+  <p><strong>Family:</strong> <%= @god.family %></p>
+  <p><%= simple_format(@god.story) %></p>
+  <p><strong>Powers:</strong> <%= @god.powers %></p>
+  <p><strong>Fun Fact:</strong> <%= @god.fun_fact %></p>
+  <p><strong>How They Were Honored:</strong> <%= @god.honored %></p>
+  <p><%= simple_format(@god.appearance) %></p>
+
+  <% if @god.image_url.present? %>
+    <%= image_tag @god.image_url, alt: @god.name %>
+  <% end %>
+
+  <div class="back-links">
+    <%= link_to 'Back to Gods & Mythology', gods_path %> |
+    <%= link_to 'Back to Home', root_path %>
+  </div>
+</div>

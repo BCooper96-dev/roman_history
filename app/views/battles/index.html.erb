@@ -1,0 +1,10 @@
+<h1>Important Roman Battles</h1>
+
+<div class="battle-list-container"> <ul>
+    <% @battles.each do |battle| %>
+      <li><%= link_to battle.name, battle_path(battle) %></li>
+    <% end %>
+  </ul>
+</div>
+
+<%= link_to 'Back to Home', root_path %>

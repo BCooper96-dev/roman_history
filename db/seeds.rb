@@ -1574,3 +1574,205 @@ God.create({
  image_url: "https://kids.kiddle.co/images/thumb/e/e2/Saturn_with_head_protected_by_winter_cloak%2C_holding_a_scythe_in_his_right_hand%2C_fresco_from_the_House_of_the_Dioscuri_at_Pompeii%2C_Naples_Archaeological_Museum_%2823497733210%29.jpg/250px-Saturn_with_head_protected_by_winter_cloak%2C_holding_a_scythe_in_his_right_hand%2C_fresco_from_the_House_of_the_Dioscuri_at_Pompeii%2C_Naples_Archaeological_Museum_%2823497733210%29.jpg"
 })
 puts "seeded roman gods"
+
+Battle.create(
+ name: "Battle of Cannae",
+ date: "216",
+ location: "Cannae, Italy",
+ belligerents: "Romans vs. Carthage (led by Hannibal)",
+ outcome: "Carthaginian victory; one of Rome's worst defeats.",
+ importance: "Hannibal, a brilliant general, almost destroyed the entire Roman army! This battle showed how vulnerable Rome could be.",
+ image_url: "https://www.historyhit.com/media/images/992x558/cannae_battle_shutterstock_2.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Teutoburg Forest",
+ date: "9",
+ location: "Near Kalkriese, Germany",
+ belligerents: "Romans vs. Germanic tribes",
+ outcome: "Germanic victory; a major disaster for Rome.",
+ importance: "The Romans lost a huge number of soldiers, and it stopped them from conquering Germany.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Teutoburger_Wald_mit_Denkmal.jpg/1280px-Teutoburger_Wald_mit_Denkmal.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Milvian Bridge",
+ date: "312",
+ location: "Near Rome, Italy",
+ belligerents: "Constantine vs. Maxentius (Roman civil war)",
+ outcome: "Constantine's victory; led to the legalization of Christianity in the Roman Empire.",
+ importance: "This battle helped make Christianity the main religion of the Roman Empire, which changed history forever!",
+ image_url: "https://www.thecollector.com/wp-content/uploads/2021/08/battle-of-milvian-bridge.jpg"
+)
+
+Battle.create(
+ name: "Battle of Alesia",
+ date: "52",
+ location: "Alesia, Gaul (modern France)",
+ belligerents: "Romans (led by Julius Caesar) vs. Gallic tribes (led by Vercingetorix)",
+ outcome: "Roman victory; a decisive battle in Caesar's conquest of Gaul.",
+ importance: "Caesar, a famous Roman leader, trapped a large Gallic army and won, bringing Gaul under Roman control.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Vercingetorix_jette_ses_armes_aux_pieds_de_C%C3%A9sar_-_Lionel_Royer.jpg/1280px-Vercingetorix_jette_ses_armes_aux_pieds_de_C%C3%A9sar_-_Lionel_Royer.jpg"
+)
+
+Battle.create(
+ name: "Battle of Actium",
+ date: "31",
+ location: "Actium, Greece (naval battle)",
+ belligerents: "Forces of Octavian vs. Forces of Mark Antony and Cleopatra",
+ outcome: "Octavian's victory; marked the end of the Roman Republic and the beginning of the Roman Empire under Augustus (Octavian).",
+ importance: "This big sea battle led to one person becoming the sole ruler of Rome, changing how Rome was governed.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/The_Battle_of_Actium_by_Laureys_a_Castro.jpg/1280px-The_Battle_of_Actium_by_Laureys_a_Castro.jpg"
+)
+
+Battle.create(
+ name: "Battle of Adrianople",
+ date: "378",
+ location: "Adrianople (modern Edirne, Turkey)",
+ belligerents: "Eastern Roman Empire vs. Gothic tribes",
+ outcome: "Gothic victory; a significant defeat for the Roman Empire in the Late Antiquity.",
+ importance: "The Goths, considered barbarians by the Romans, defeated a Roman army badly, showing the Roman Empire was getting weaker.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Battle_of_Adrianople_378AD.jpg/1280px-Battle_of_Adrianople_378AD.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Catalaunian Plains (or Battle of the Campus Mauriacus)",
+ date: "451",
+ location: "Near Châlons-en-Champagne, Gaul (modern France)",
+ belligerents: "Western Roman Empire and Visigoths vs. Hunnic Empire (led by Attila)",
+ outcome: "Tactical victory for the Western Roman-Visigothic alliance; Attila's advance into Gaul was halted.",
+ importance: "The Romans and their allies fought against the fierce Huns and stopped them from taking over Gaul!",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Battle_of_the_Catalaunian_Plains_%28colored_engraving%29.jpg/1280px-Battle_of_the_Catalaunian_Plains_%28colored_engraving%29.jpg"
+)
+
+Battle.create(
+ name: "Battle of Zama (202 BC)",
+ date: "202",
+ location: "Near Zama, North Africa (modern Tunisia)",
+ belligerents: "Roman Republic (led by Scipio Africanus) vs. Carthage (led by Hannibal)",
+ outcome: "Roman victory; decisively ended the Second Punic War.",
+ importance: "This was the final showdown between Rome and Hannibal! Rome won, making it the top power in the Mediterranean.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Scipio_Africanus_at_the_Battle_of_Zama.jpg/1280px-Scipio_Africanus_at_the_Battle_of_Zama.jpg"
+)
+
+Battle.create(
+ name: "Battle of Carrhae (53 BC)",
+ date: "53",
+ location: "Carrhae (modern Harran, Turkey)",
+ belligerents: "Roman Republic (led by Marcus Licinius Crassus) vs. Parthian Empire",
+ outcome: "Parthian victory; a devastating defeat for the Romans.",
+ importance: "The Romans tried to invade the Parthian Empire but were tricked and suffered a big loss, including one of their important leaders.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/The_Battle_of_Carrhae.jpg/1280px-The_Battle_of_Carrhae.jpg"
+)
+
+Battle.create(
+ name: "Siege of Alesia (again, for emphasis on the siege aspect)",
+ date: "52",
+ location: "Alesia, Gaul (modern France)",
+ belligerents: "Romans (led by Julius Caesar) vs. Gallic tribes (led by Vercingetorix)",
+ outcome: "Roman victory; a masterful example of Roman siege warfare.",
+ importance: "This wasn't just a battle, it was a clever trap by the Romans! They built walls around the Gauls and then fought off both the trapped army and a relief force!",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Siege_of_Alesia_plan.svg/1280px-Siege_of_Alesia_plan.svg.png"
+)
+
+Battle.create(
+ name: "Battle of Trebia (218 BC)",
+ date: "218",
+ location: "Trebia River, Cisalpine Gaul (modern Italy)",
+ belligerents: "Roman Republic vs. Carthage (led by Hannibal)",
+ outcome: "Carthaginian victory; Hannibal's first major victory on Italian soil.",
+ importance: "Hannibal used clever tactics, like hiding part of his army, to defeat the Romans early in the war!",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Hannibal_at_the_Trebia.jpg/1280px-Hannibal_at_the_Trebia.jpg"
+)
+
+Battle.create(
+ name: "Battle of Lake Trasimene (217 BC)",
+ date: "217",
+ location: "Lake Trasimene, Etruria (modern Italy)",
+ belligerents: "Roman Republic vs. Carthage (led by Hannibal)",
+ outcome: "Carthaginian victory; a devastating ambush by Hannibal.",
+ importance: "Hannibal tricked the Romans by hiding his army in the fog and then attacking them by surprise!",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Hannibal_Lake_Trasimene.jpg/1280px-Hannibal_Lake_Trasimene.jpg"
+)
+
+Battle.create(
+ name: "Battle of Philippi (42 BC)",
+ date: "42",
+ location: "Philippi, Macedonia (modern Greece)",
+ belligerents: "Second Triumvirate (forces of Mark Antony and Octavian) vs. Liberators (forces of Brutus and Cassius)",
+ outcome: "Victory for the Second Triumvirate; marked the end of the Republican cause.",
+ importance: "This battle was fought to avenge Julius Caesar's death, and it led to the rise of the Roman Empire.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Philippi_-_Antonius_und_Octavian_gegen_Brutus_und_Cassius.jpg/1280px-Philippi_-_Antonius_und_Octavian_gegen_Brutus_und_Cassius.jpg"
+)
+
+Battle.create(
+ name: "Battle of Pharsalus (48 BC)",
+ date: "48",
+ location: "Pharsalus, Thessaly (modern Greece)",
+ belligerents: "Julius Caesar's forces vs. Pompey's forces (Roman Civil War)",
+ outcome: "Caesar's victory; a decisive battle in Caesar's rise to power.",
+ importance: "Caesar fought against another famous Roman leader, Pompey, and winning this battle made Caesar very powerful.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pompey%27s_flight_after_Pharsalus.jpg/1280px-Pompey%27s_flight_after_Pharsalus.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Metaurus (207 BC)",
+ date: "207",
+ location: "Metaurus River, Italy",
+ belligerents: "Roman Republic vs. Carthage (led by Hasdrubal Barca)",
+ outcome: "Roman victory; a crucial defeat for Carthage in the Second Punic War.",
+ importance: "Hannibal's brother tried to bring more soldiers to help him, but the Romans stopped them in this important battle.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hasdrubal%27s_Last_Stand.jpg/1280px-Hasdrubal%27s_Last_Stand.jpg"
+)
+
+Battle.create(
+ name: "Battle of Teutoburg Forest (again, for emphasis on the long-term impact)",
+ date: "9",
+ location: "Near Kalkriese, Germany",
+ belligerents: "Romans vs. Germanic tribes",
+ outcome: "Germanic victory; permanently limited Roman expansion in Germania.",
+ importance: "This second mention reminds us how this loss stopped the Romans from conquering even more land in the north.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hermannsschlacht_Gem%C3%A4lde.jpg/1280px-Hermannsschlacht_Gem%C3%A4lde.jpg"
+)
+
+Battle.create(
+ name: "Battle of Thermopylae (480 BC - Roman perspective)",
+ date: "480",
+ location: "Thermopylae, Greece",
+ belligerents: "Greek city-states (including Spartans and Thespians) vs. Persian Empire",
+ outcome: "Persian victory, but a heroic last stand by the Greeks.",
+ importance: "While not a Roman battle, the bravery shown here was admired by Romans and is a famous story of courage against a much larger enemy.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonidas_at_Thermopylae.jpg/1280px-Leonidas_at_Thermopylae.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Allia (390 BC)",
+ date: "390",
+ location: "Allia River, near Rome",
+ belligerents: "Roman Republic vs. Gallic tribes (Senones)",
+ outcome: "Gallic victory; led to the sack of Rome.",
+ importance: "Early in Rome's history, they suffered a humiliating defeat and their city was even captured by Gallic warriors!",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Brennus_and_the_spoils.jpg/1280px-Brennus_and_the_spoils.jpg"
+)
+
+Battle.create(
+ name: "Battle of the Frigidus (394 AD)",
+ date: "394",
+ location: "Frigidus River (modern Vipava River, Slovenia)",
+ belligerents: "Eastern Roman Empire (Theodosius I) vs. Western Roman Empire (Eugenius)",
+ outcome: "Eastern Roman victory; effectively solidified Christianity as the state religion of the entire Roman Empire.",
+ importance: "Another important battle that helped make Christianity the official religion of the whole Roman Empire.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Theodosius_defeats_Eugenius.jpg/1280px-Theodosius_defeats_Eugenius.jpg"
+)
+
+Battle.create(
+ name: "Battle of Vesuvius (or Battle of Mons Gaurus) (339 BC)",
+ date: "339",
+ location: "Near Mount Vesuvius, Campania (modern Italy)",
+ belligerents: "Roman Republic vs. Latin League",
+ outcome: "Roman victory; led to the dissolution of the Latin League and strengthened Roman control over Latium.",
+ importance: "This early Roman victory helped Rome become the boss of its neighbors in Italy.",
+ image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Eruption_of_Vesuvius_and_the_Destruction_of_Pompeii_and_Herculaneum_by_Pierre-Jacques_Volaire.jpg/1280px-Eruption_of_Vesuvius_and_the_Destruction_of_Pompeii_and_Herculaneum_by_Pierre-Jacques_Volaire.jpg"
+)
+
+puts "seeded roman battles!"

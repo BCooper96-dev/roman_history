@@ -66,3 +66,35 @@ body.emperors.index {
       margin-right: 0;
     }
   }
+
+  .battle-list-container {
+    background-color: white; /* Set the background to white */
+    padding: 20px; /* Add some padding inside the box */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin: 20px auto; /* Optional: Add margin around the box and center it horizontally if it's a block-level element */
+  }
+  
+  .battle-list-container ul {
+    list-style: bullets; /* Remove bullet points */
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Enable flexbox for horizontal layout */
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between items */
+    justify-content: center; /* Center the items horizontally within the container */
+    align-items: flex-start;
+    align-items: center;
+  }
+  
+  .battle-list-container ul li {
+    margin: 0; /* Remove default list item margins */
+  }
+  
+  .battle-list-container ul li a {
+    /* Style the links as needed */
+    text-decoration: none;
+    color: #330be7; /* Example link color */
+    /* Add more link styles here */
+  }

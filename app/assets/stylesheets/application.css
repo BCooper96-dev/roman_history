@@ -46,6 +46,16 @@ body.emperors.index {
     2px 2px 0 gold;
    
   }
+
+  .home-container {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: white; /* Add a white background */
+    padding: 15px; /* Add some padding around the content inside the box */
+    border-radius: 5px; /* Add rounded corners for a softer look (optional) */
+    opacity: 0.9; 
+  }
   /* Styles for desktop screens (min-width: a certain pixel value, e.g., 768px) */
   @media (min-width: 768px) {
     .categories-container {

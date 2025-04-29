@@ -1162,10 +1162,6 @@ Emperor.create({
 
 puts "Successfully created #{Emperor.count} emperors."
 
-# Add more emperors here using the data from the JSON response
-
-puts "Successfully created #{Emperor.count} emperors."
-
 
 RomanPlace.create({
  name: "The Colosseum",
@@ -1380,7 +1376,6 @@ puts "Seeded Roman Places!"
 
 God.create({
  name: "Neptune",
- greek_equivalent: "Poseidon",
  realm: "The Sea, Oceans, Rivers, Storms, Earthquakes, and Horses!",
  symbols: "His powerful three-pronged spear called a trident, horses, dolphins, and sometimes bulls.",
  family: "Parents: Saturn and Ops; Brothers: Jupiter and Pluto; Wife: Salacia",
@@ -1394,7 +1389,6 @@ God.create({
 
 God.create({
  name: "Mars",
- greek_equivalent: "Ares",
  realm: "War, Courage, Battle, and sometimes Agriculture (in early Roman history)",
  symbols: "Spear, shield, helmet, dog, and vulture.",
  family: "Parents: Jupiter and Juno; Lover of Venus; Father of Romulus and Remus (founders of Rome, in some myths)",
@@ -1408,7 +1402,6 @@ God.create({
 
 God.create({
  name: "Apollo",
- greek_equivalent: "Apollo (the names are the same in both mythologies)",
  realm: "Music, Poetry, Light, the Sun, Healing, Prophecy, Archery, and sometimes associated with young men and beauty.",
  symbols: "Lyre (a stringed musical instrument), bow and arrows, laurel wreath, the sun, and sometimes snakes.",
  family: "Parents: Jupiter and Leto; Twin brother of Diana (Artemis in Greek).",
@@ -1422,7 +1415,6 @@ God.create({
 
 God.create({
  name: "Vulcan",
- greek_equivalent: "Hephaestus",
  realm: "Fire, Metalworking, Blacksmiths, Craftsmen, Volcanoes.",
  symbols: "Hammer, tongs, anvil, and fire.",
  family: "Parents: Jupiter and Juno (though some myths say Juno conceived him alone); Husband of Venus (though an often unhappy marriage).",
@@ -1436,7 +1428,6 @@ God.create({
 
 God.create({
  name: "Venus",
- greek_equivalent: "Aphrodite",
  realm: "Love, Beauty, Pleasure, and Fertility.",
  symbols: "Dove, swan, rose, myrtle, and scallop shell.",
  family: "Born from sea foam (in some myths); Mother of Cupid (Eros in Greek) and Aeneas (a hero important to Roman founding myths).",
@@ -1450,7 +1441,6 @@ God.create({
 
 God.create({
  name: "Mercury",
- greek_equivalent: "Hermes",
  realm: "Messengers, Communication, Trade, Travelers, Thieves, and Boundaries.",
  symbols: "Winged sandals (talaria), winged helmet (petasos), and a staff with two snakes coiled around it (caduceus).",
  family: "Parents: Jupiter and Maia.",
@@ -1464,7 +1454,6 @@ God.create({
 
 God.create({
  name: "Diana",
- greek_equivalent: "Artemis",
  realm: "The Hunt, Wilderness, Wild Animals, the Moon, and Childbirth.",
  symbols: "Bow and arrows, hunting dogs, deer, and the crescent moon.",
  family: "Parents: Jupiter and Leto; Twin sister of Apollo.",
@@ -1478,7 +1467,6 @@ God.create({
 
 God.create({
  name: "Jupiter",
- greek_equivalent: "Zeus",
  realm: "King of the Gods, Sky, Thunder, Lightning, Law, Order.",
  symbols: "Thunderbolt, eagle, oak tree.",
  family: "Parents: Saturn and Ops; Brothers: Neptune and Pluto; Husband of Juno.",
@@ -1492,7 +1480,6 @@ God.create({
 
 God.create({
  name: "Juno",
- greek_equivalent: "Hera",
  realm: "Queen of the Gods, Marriage, Women, and Childbirth.",
  symbols: "Peacock, cow, and pomegranate.",
  family: "Parents: Saturn and Ops; Sister and wife of Jupiter.",
@@ -1506,7 +1493,6 @@ God.create({
 
 God.create({
  name: "Pluto",
- greek_equivalent: "Hades",
  realm: "The Underworld, Death, and Hidden Wealth (gems and precious metals beneath the earth).",
  symbols: "Helm of darkness, Cerberus (the three-headed dog), cypress tree, and sometimes a bident (two-pronged fork).",
  family: "Parents: Saturn and Ops; Brothers: Jupiter and Neptune; Wife: Proserpina (Persephone in Greek).",
@@ -1520,7 +1506,6 @@ God.create({
 
 God.create({
  name: "Vesta",
- greek_equivalent: "Hestia",
  realm: "The Hearth, Home, and Family.",
  symbols: "The sacred fire, which was kept burning in her temple.",
  family: "Sister of Jupiter, Juno, Neptune, and Pluto; Daughter of Saturn and Ops.",
@@ -1534,7 +1519,6 @@ God.create({
 
 God.create({
  name: "Ceres",
- greek_equivalent: "Demeter",
  realm: "Agriculture, Grain, Harvest, and Motherly Love.",
  symbols: "Wheat, cornucopia (horn of plenty), and poppies.",
  family: "Sister of Jupiter, Juno, Neptune, and Pluto; Mother of Proserpina (Persephone).",
@@ -1548,7 +1532,6 @@ God.create({
 
 God.create({
  name: "Cupid",
- greek_equivalent: "Eros",
  realm: "Love, Desire, and Attraction.",
  symbols: "Bow and arrows (to pierce hearts with love), wings.",
  family: "Son of Venus (in most myths).",
@@ -1562,7 +1545,6 @@ God.create({
 
 God.create({
  name: "Saturn",
- greek_equivalent: "Cronus",
  realm: "Time, Agriculture, Wealth, Liberation, and the Harvest.",
  symbols: "Sickle or scythe (associated with harvesting), lead.",
  family: "Parents: Caelus (Uranus) and Terra (Gaia); Husband of Ops (Rhea); Father of Jupiter, Juno, Neptune, Pluto, Ceres, and Vesta.",
@@ -1776,3 +1758,167 @@ Battle.create(
 )
 
 puts "seeded roman battles!"
+
+Museum.create(
+ name: "The Roman Baths",
+ region: "West England",
+ description: "The Roman Baths are well-preserved thermae in the city of Bath, Somerset, England. A temple was constructed on the site between 60 and 70 AD in the first few decades of Roman Britain. Its presence led to the development of the small Roman urban settlement known as Aquae Sulis around the site",
+ address: "Abbey Churchyard, Bath BA1 1LZ",
+ web_link: "https://www.romanbaths.co.uk/",
+ image_url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nokk-34VXgrOi0ZVLIMSQYy4tSUmmIYt2F7Q8CDXfZIQ0ceMtE-LjEx__b-gpdZwOx9htjo1g9mcDBc9t3HicA63ftNPSxsNe0WAhZjj1knbb8AH5Nmjwe5xUmEuOmyNOJPC_b5=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "The National Roman Legion museum",
+ region: "South Wales",
+ description: "The National Roman Legion Museum is a museum in Caerleon, near Newport, south-east Wales. It is one of three Roman sites in Caerleon, along with the Baths museum and the open-air ruins of the amphitheatre and barracks",
+ address: "High St, Caerleon, Newport NP18 1AE",
+ web_link: "https://museum.wales/roman/",
+ image_url: "https://www.visitmidwales.co.uk/imageresizer/?image=%2Fdmsimgs%2FNationla_Roman_Legion_Museum_1491550012.jpg&action=ProductDetailImage"
+)
+
+Museum.create(
+ name: "Arbeia, South Sheilds Roman Fort",
+ region: "North East England",
+ description: "Arbeia was a large Roman fort in South Shields, Tyne & Wear, England, now ruined, and which has been partially reconstructed. It was first excavated in the 1870s. All modern buildings on the site were cleared in the 1970s. It is managed by Tyne & Wear Archives & Museums as Arbeia, South Shields Roman Fort",
+ address: "Baring St, South Shields NE33 2BB",
+ web_link: "https://arbeiaromanfort.org.uk/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipNFjE-IBknAN7are6nKc7732NDC0gZeD-9sdw4f=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Verulamium Museum",
+ region: "Hertfordshire, England",
+ description: "Built on the site of one of the largest Roman cities in Britain, Verulamium Museum is filled with ancient treasures and some of the finest mosaics outside of the Mediterranean. Bring the entire family and explore the wonders of Roman life, immerse yourself in recreated Roman rooms and admire the craftsmanship of the intricate large-scale mosaics on display. In addition to hands-on discovery areas for younger visitors, the museum also provides a selection of free activity sheets for children and dressing up clothes are available on weekends and school holidays. Verulamium Museum is a Tripadvisor Traveller's Choice winner 2024",
+ address: "St Michael's St, St Albans AL3 4SW",
+ web_link: "https://www.stalbansmuseums.org.uk/visit/verulamium-museum",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipPzjW0aZar5BH08b9spePeug9MqHEooPNIkpxFq=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Vindolanda",
+ region: "North England",
+ description: "Vindolanda was a Roman auxiliary fort just south of Hadrian's Wall in northern England, which it pre-dated. Archaeological excavations of the site show it was under Roman occupation from roughly 85 AD to 370 AD",
+ address: "Hexham, NE47 7JN",
+ web_link: "https://www.vindolanda.com/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipPMDZ41Y_fwJiD6XMYMtSKfJLbPGCZl8QQdJbEM=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "The Roman Army Museum",
+ region: "North England",
+ description: " immerse yourself in the life of a Roman soldier. The museum includes three galleries, Edge of Empire film and holographic classroom. Based at the site of Magna Roman Fort the museum is situated next to one of the most complete sections of Hadrian’s Wall.",
+ address: "Hexham, NE47 7JN",
+ web_link: "https://romanarmymuseum.com/",
+ image_url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrz1D7QdgbrYQ4dkEx7OWEo2HyPJcJSzLUqJzfmocyHJsIHWcGg5Y446xRjfWgs6rFHS0UsvrJnvfly9VfP2xfKJ1pzjQRjyPZnYPn3jtmORXoqhmtB2ZG6qCB0cqaAUwFmgG2G=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Newport Museum & Art Gallery",
+ region: "South Wales",
+ description: "Newport Museum and Art Gallery is a museum, library and art gallery in the city of Newport, South Wales. It is located in Newport city centre on John Frost Square and is adjoined to the Kingsway Shopping Centre.",
+ address: "Central Library, 4 John Frost Square, Kingsway Centre, Newport NP20 1PA",
+ web_link: "https://www.newport.gov.uk/heritage/en/Museum-Art-Gallery/Museum-Art-Gallery.aspx",
+ image_url: "https://images.squarespace-cdn.com/content/v1/5a1d5fb38a02c70db7c34f81/1621417852065-GIQRLEED0PVVYE5S2N72/museum+exhibition3.jpg?format=2500w"
+)
+
+Museum.create(
+ name: "Hull and East Riding Museum",
+ region: "Yorkshire",
+ description: "At the Hull and East Riding Museum, you can journey through 235 million years of history. From a face-to-face encounter with a woolly mammoth to appreciating the beauty of the stunning mosaics within a Roman bathhouse, the museum displays show what it would have been like to live in the region throughout time.",
+ address: "36 High Street Hull, HU1 1NQ",
+ web_link: "https://www.visithull.org/to-do/east-riding-museum/",
+ image_url: "https://cliffhouseholidaycottages.co.uk/wp-content/uploads/2023/01/days-out-hull-14-of-25-768x1024.jpg?is-pending-load=1"
+)
+
+Museum.create(
+ name: "Yorkshire Museum",
+ region: "Yorkshire",
+ description: " the museum houses galleries showcasing some of Britain’s finest archaeological treasures from the city’s Roman, Viking and medieval past as well as a nationally significant natural science collection, some of which is on show in Yorkshire’s Jurassic World. Highlights of the archaeological collections include the Roman statue of Mars, the best example of 3D Roman sculpture ever found in Britain, the York Helmet and the stunning Middleham Jewel.",
+ address: "Museum Gardens, Museum Street, York, YO1 7FR",
+ web_link: "https://www.yorkshiremuseum.org.uk/",
+ image_url: "https://www.yorkshiremuseum.org.uk/wp-content/uploads/sites/4/2021/07/dtymt_2017-07-10_081640-scaled.jpg"
+)
+
+Museum.create(
+ name: "London's Roman Ampitheatre",
+ region: "City Of London",
+ description: "The visible remains of an amphitheatre constructed during Roman London lie beneath Guildhall Yard in the City of London. Some of these remains are displayed in situ in a room in the basement of the Guildhall Art Gallery complex.",
+ address: "Guildhall Yard, London EC2V 5AE",
+ web_link: "https://www.thecityofldn.com/directory/londons-roman-amphitheatre/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipOpoSxECqySALT-V9YmoSnK7HcTltwH9P1ZA3NH=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "The London Mithraeum",
+ region: "City Of London",
+ description: "The London Mithraeum, also known as the Temple of Mithras, Walbrook, is a Roman Mithraeum that was discovered in Walbrook, a street in the City of London, during a building's construction in 1954",
+ address: "12 Walbrook, London EC4N 8AA",
+ web_link: "https://www.londonmithraeum.com/",
+ image_url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nognKPQxu3CeZgOb7GHtr-gGSwcG7wZsT1I1SAV7KK9pjxu4sAVNAqL26xA_0k1s-1aoy52NqsCn3_PnLa-7vDXc9BFcimOHTrLDEJ67MEAclxxFhZjBQH-cCG6JUwkbx61SFqB=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Deva Roman Experience",
+ region: "Cheshire",
+ description: "Embark on an exciting journey into Chester's Roman past! Witness history as never before in this family-friendly adventure for all ages! Filled with stories from across the empire, genuine artefacts and have-a-go displays, our site presents historical information by putting you as the main character complete with all the sights, sounds, and smells! Learn all about the archaeology of Chester through our trailblazing light show and open archaeological trenches, which showcase the abundance of physical historical remains that lie beneath your feet. Visit Deva Roman Experience to experience the history of Roman Chester by putting yourself right in the middle, rather than just looking through glass.",
+ address: "1-2, off Pierpoint Ct, Chester CH1 1NL",
+ web_link: "http://www.dewaromanexperience.co.uk/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipPzAiDlzBuf_lCpNH3_pBylXC-fwr5QYsHfD8lU=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Chesters Roman Fort & Museum",
+ region: "Northumberland", 
+ description: "Chesters Roman Fort is the most complete Roman cavalry fort in Britain – wander around the unusually well-preserved baths and steam room, and the officers’ quarters. Discover an amazing collection of Roman objects and inscriptions in the Clayton Museum",
+ address: "B6318, Chollerford, Hexham NE46 4EU",
+ web_link: "https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/?utm_source=Google%20Business&utm_campaign=Local%20Listings&utm_medium=Google%20Business%20Profiles&utm_content=chesters%20roman%20fort",
+ image_url: "https://live.staticflickr.com/65535/51373151939_03cf95eb95.jpg"
+)
+
+Museum.create(
+ name: "Welwyn Roman Baths",
+ region: "Hertfordshire",
+ description: "The Welwyn Roman Baths are a Roman ruin preserved under the A1 just north of modern-day Welwyn Garden City, Hertfordshire, England. The baths were a small part of the Dicket Mead villa, which was originally built in the 3rd century AD",
+ address: "Welwyn By Pass Rd, Welwyn AL6 9FG",
+ web_link: "https://www.millgreenmuseum.co.uk/roman-baths/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipNwvJvuDhnbqntmYMte6hbS25Q4athapVgAM5tX=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Lunt Roman Fort",
+ region: "Coventry",
+ description: "The Lunt Roman Fort is the archaeological site of a Roman fort, of unknown name, in the Roman province of Britannia. It is open to the public and located in the village of Baginton on the south eastern outskirts of Coventry",
+ address: "Coventry Rd, Baginton, Coventry CV8 3AJ",
+ web_link: "http://www.luntromanfort.org/",
+ image_url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq68s8-FtLJvZZgjskTrUK-F5tCve5FUtCPT-i-bix12vRwl295ARtbH-cMyHeLMTlNoEpWFQtAFLUhRDGuxePGjoGvLqAYAyH2-1SDt47sWy4H7XZJO_L-_sukOnAM-VXBmkJC=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Brading Roman Villa",
+ region: "Isle Of White",
+ description: "Situated overlooking Sandown Bay on the Isle of Wight, Brading Roman Villa is one of the finest Roman sites in the UK. Our award-winning Visitor Centre and Museum offer unique insights into Roman life in Britain from beautifully preserved mosaic floors to an extensive collection of Roman archaeology.",
+ address: "Morton Old Rd, Brading, Sandown PO36 0PH",
+ web_link: "https://bradingromanvilla.org.uk/",
+ image_url: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqy36zXohvJNMlOBfiElwRo6D4N7goImVd80ENprltX1eQyAylNA7bQEG4RcimlYOpb-jIOjKix7Dz7hMlrmTl5yBozvZAJrKyF7VB-owWiB_S87Afvb9x5pLH8zqWXa6ve4Nei=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Bignor Roman Villa",
+ region: "West Sussex",
+ description: "Bignor Roman Villa is a large Roman courtyard villa which has been excavated and put on public display on the Bignor estate in the English county of West Sussex. It is well known for its high quality mosaic floors, which are some of the most complete and intricate in the country",
+ address: "Bignor, Pulborough RH20 1PH",
+ web_link: "http://www.bignorromanvilla.co.uk/",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipNh0sAOhLpZLgkFVDkjWhWBtAjwir_J3yYOtSWx=s680-w680-h510-rw"
+)
+
+Museum.create(
+ name: "Rockbourne Roman Vila",
+ region: "Hampshire",
+ description: "Rockbourne Roman Villa is a Roman courtyard villa excavated and put on public display in the village of Rockbourne in the English county of Hampshire. The villa was discovered in 1942 by a local farmer and excavated by A. T. Morley Hewitt over the next thirty years",
+ address: "Rockbourne Rd, Fordingbridge SP6 3PG",
+ web_link: "https://www.hampshireculture.org.uk/rockbourne-roman-villa",
+ image_url: "https://lh3.googleusercontent.com/p/AF1QipO-XG1SAnNrWfsFq4NEu5wl7gZBRMnB80UzdQ9m=s680-w680-h510-rw"
+)
+
+puts "seeded roman museums"

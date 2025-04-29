@@ -1,0 +1,15 @@
+<div class="emperor-details">
+<h1><%= @museum.name %></h1>
+
+<p>Region: <%= @museum.region %> </p>
+<p>Description: <%= @museum.description %></p>
+<p>Address: <%= @museum.address %></p>
+<% if @museum.web_link.present? %>
+  <%= link_to @museum.web_link %>
+<% end %>
+<% if @museum.image_url.present? %>
+  <%= image_tag @museum.image_url, alt: @museum.name, style: "max-width: 50%;" %>
+<% end %>
+
+<%= link_to 'Back to List', museums_path %>
+</div>

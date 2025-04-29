@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_04_25_203711) do
+ActiveRecord::Schema[8.0].define(version: 2025_04_29_100452) do
   create_table "battles", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -29,6 +29,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_04_25_203711) do
     t.date "reign_end"
     t.text "bio"
     t.text "fun_fact"
+    t.text "honored"
+    t.text "appearance"
     t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -50,8 +52,18 @@ ActiveRecord::Schema[8.0].define(version: 2025_04_25_203711) do
     t.text "appearance"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "greek_equivalent"
     t.string "image_url"
+  end
+
+  create_table "museums", force: :cascade do |t|
+    t.string "name"
+    t.string "region"
+    t.text "description"
+    t.text "address"
+    t.string "web_link"
+    t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "roman_places", force: :cascade do |t|

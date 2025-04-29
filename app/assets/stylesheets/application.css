@@ -48,13 +48,24 @@ body.emperors.index {
   }
 
   .home-container {
-    width: calc(25% - 20px);
+    width: 90%;
     margin-right: 20px;
     margin-bottom: 30px;
     background-color: white; /* Add a white background */
     padding: 15px; /* Add some padding around the content inside the box */
     border-radius: 5px; /* Add rounded corners for a softer look (optional) */
-    opacity: 0.9; 
+    opacity: 0.9;
+    justify-content: center;
+  }
+
+  .home-container ul li {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .home-container p {
+    font-size: 1.8em;
+    font-weight: bold;
   }
   /* Styles for desktop screens (min-width: a certain pixel value, e.g., 768px) */
   @media (min-width: 768px) {

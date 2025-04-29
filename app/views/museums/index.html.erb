@@ -1,0 +1,16 @@
+<h1>Museums With Roman Exhibitions</h1>
+
+<div class="categories-container">
+  <% @museums_by_region.each do |region, museum| %>
+    <div class="category-group">
+      <h2><%= region %></h2>
+      <ul>
+        <% museum.each do |museum| %>
+          <li><%= link_to museum.name, museum_path(museum) %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to 'Back to Home', root_path %>

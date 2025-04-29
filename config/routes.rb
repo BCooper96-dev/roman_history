@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   resources :roman_places, only: [:index, :show]
   resources :gods, only: [:index, :show]
   resources :battles, only: [:index, :show]
+  resources :museums, only: [:index, :show]
   # ... other routes ...
 end

@@ -1,0 +1,2 @@
+class RomanInvention < ApplicationRecord
+end

@@ -44,6 +44,8 @@ body.emperors.index {
     2px -2px 0 gold,
     -2px 2px 0 gold,
     2px 2px 0 gold;
+    font-size: 2.0em;
+    font-weight: bold;
    
   }
 
@@ -67,6 +69,40 @@ body.emperors.index {
     font-size: 1.8em;
     font-weight: bold;
   }
+
+  .battle-list-container {
+    background-color: white; /* Set the background to white */
+    padding: 20px; /* Add some padding inside the box */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin: 20px auto; /* Optional: Add margin around the box and center it horizontally if it's a block-level element */
+  }
+  
+  .battle-list-container ul {
+    list-style: bullets; /* Remove bullet points */
+    font-size: 1.3em;
+    padding: 15px;
+    margin: 0;
+    display: flex; /* Enable flexbox for horizontal layout */
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between items */
+    justify-content: center; /* Center the items horizontally within the container */
+    align-items: flex-start;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .battle-list-container ul li {
+    margin: 15px; /* Remove default list item margins */
+    font-size: 1.3em;
+  }
+  
+  .battle-list-container ul li a {
+    /* Style the links as needed */
+    text-decoration: none;
+    color: #330be7; /* Example link color */
+    /* Add more link styles here */
+  }
   /* Styles for desktop screens (min-width: a certain pixel value, e.g., 768px) */
   @media (min-width: 768px) {
     .categories-container {
@@ -86,36 +122,37 @@ body.emperors.index {
     .categories-container .category-group:nth-child(3n) {
       margin-right: 0;
     }
+
+    .battle-list-container {
+      background-color: white; /* Set the background to white */
+      padding: 20px; /* Add some padding inside the box */
+      border: 1px solid #ccc; /* Optional: Add a border */
+      border-radius: 5px; /* Optional: Add rounded corners */
+      margin: 20px auto; /* Optional: Add margin around the box and center it horizontally if it's a block-level element */
+    }
+    
+    .battle-list-container ul {
+      list-style: bullets; /* Remove bullet points */
+      font-size: 1.5em;
+      padding: 15px;
+      margin: 15px;
+      display: flex; /* Enable flexbox for horizontal layout */
+      flex-wrap: wrap;
+      gap: 20px; /* Adjust spacing between items */
+      justify-content: center; /* Center the items horizontally within the container */
+      align-items: flex-start;
+      align-items: center;
+    }
+    
+    .battle-list-container ul li {
+      margin: 15px; /* Remove default list item margins */
+    }
+    
+    .battle-list-container ul li a {
+      /* Style the links as needed */
+      text-decoration: none;
+      color: #330be7; /* Example link color */
+    }
   }
 
-  .battle-list-container {
-    background-color: white; /* Set the background to white */
-    padding: 20px; /* Add some padding inside the box */
-    border: 1px solid #ccc; /* Optional: Add a border */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    margin: 20px auto; /* Optional: Add margin around the box and center it horizontally if it's a block-level element */
-  }
-  
-  .battle-list-container ul {
-    list-style: bullets; /* Remove bullet points */
-    font-size: 1.5em;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Enable flexbox for horizontal layout */
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing between items */
-    justify-content: center; /* Center the items horizontally within the container */
-    align-items: flex-start;
-    align-items: center;
-  }
-  
-  .battle-list-container ul li {
-    margin: 0; /* Remove default list item margins */
-  }
-  
-  .battle-list-container ul li a {
-    /* Style the links as needed */
-    text-decoration: none;
-    color: #330be7; /* Example link color */
-    /* Add more link styles here */
-  }
+ 

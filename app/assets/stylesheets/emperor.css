@@ -10,7 +10,7 @@ body {
   }
   
   h1 {
-    font-size: 1.8em;
+    font-size: 2.0em;
     color: darkred;
     text-shadow:
     -2px -2px 0 gold,
@@ -158,9 +158,10 @@ body {
 }
 
 .fact-file-box p {
-  line-height: 1.6; /* Improve readability of text */
+  line-height: 1.6em; /* Improve readability of text */
   margin-bottom: 10px;
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .fact-file-box strong {

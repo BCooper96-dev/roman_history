@@ -4,7 +4,7 @@
   <p><strong>Location:</strong> <%= @battle.location %></p>
   <p><strong>Belligerents:</strong> <%= @battle.belligerents %></p>
   <p><strong>Outcome:</strong> <%= @battle.outcome %></p>
-  <p><strong>Why it was Important (for Kids):</strong> <%= @battle.importance_for_kids %></p>
+  <p><strong>Why it was Important (for Kids):</strong> <%= @battle.importance %></p>
   <% if @battle.image_url.present? %>
     <%= image_tag @battle.image_url, alt: @battle.name %>
   <% end %>
